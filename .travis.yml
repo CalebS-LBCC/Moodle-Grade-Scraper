@@ -11,9 +11,10 @@ language: python
 python:
   - "3.7"
 script:
-  - pylint part_1.py
-  - pycodestyle part_1.py
-  - pydocstyle part_1.py
+  - pytest test_code.py
+  - pylint application.py, scraper.py
+  - pycodestyle application.py, scraper.py
+  - pydocstyle application.py, scraper.py
 notifications:
   email:
     recipients:
