@@ -6,9 +6,10 @@ language: python
 python:
   - "3.7"
 script:
-  - pylint part_1.py
-  - pycodestyle part_1.py
-  - pydocstyle part_1.py
+  - pytest test_code.py
+  - pylint application.py
+  - pycodestyle application.py
+  - pydocstyle application.py
 notifications:
   email:
     recipients:
