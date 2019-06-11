@@ -11,6 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time
 import platform
+import os
 
 
 class Grade_Scraper():
@@ -24,11 +25,21 @@ class Grade_Scraper():
 
     def start(self):
         """Init the webdriver in visible or headless mode."""
-        ffo = Options()
-        ffo.headless = self.state
-        self.web_driver = webdriver.Firefox(options=ffo)
-        self.cell_name = 'grade-report-overview-303687_r'
-        return self.web_driver
+        if platform.system() == "Windows":
+            # Use a local GeckoDriver on Windows
+            ffo = Options()
+            ffo.headless = self.state
+            gecko = "dependencies/geckodriver.exe"
+            self.web_driver = webdriver.Firefox(gecko, options=ffo)
+            self.cell_name = 'grade-report-overview-303687_r'
+            return self.web_driver
+        else:
+            # Use a remote server if testing on Travis
+            username = os.environ["SAUCE_USERNAME"]
+            access_key = os.environ["SAUCE_ACCESS_KEY"]
+            access_key = os.environ["SAUCE_ACCESS_KEY"]
+            hub_url = "%s:%s@localhost:4445" % (username, access_key)
+            self.web_driver = webdriver.Remote(command_executor="http://%s/wd/hub" % hub_url)
 
     def login(self, un, ps):
         """Log into Moodle using an x number and password."""

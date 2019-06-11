@@ -3,13 +3,9 @@ dist: xenial
 services:
   - xvfb
 addons:
-  firefox: "67.0.1"
-before_install:
-  - sudo apt-get update
-  - wget https://github.com/mozilla/geckodriver/releases/download/v0.20.1/geckodriver-v0.20.1-linux64.tar.gz
-  - tar -xzf geckodriver-v0.20.1-linux64.tar.gz
-  - chmod +x geckodriver
-  - sudo cp geckodriver /usr/bin
+  sauce_connect:
+    username: "calebshilling2000"
+    access_key: "bornin2000"
 install:
   - "pip install pytest pylint pycodestyle pydocstyle selenium kivy "
 language: python
