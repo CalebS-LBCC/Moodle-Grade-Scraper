@@ -1,0 +1,1532 @@
+1559806512328	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.CxlZkJJzU4VR"
+1559806512825	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559806512826	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559806512826	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559806514247	Marionette	INFO	Listening on port 55002
+1559806514444	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1868, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5192, Chrome_ChildThread] WARNING: pipe[Parent 1868, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3396, Chr1559806524437	Marionette	INFO	Stopped listening on port 55002
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559806581443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.UhVe5RA3uiUR"
+1559806581912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559806581912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559806581912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559806583298	Marionette	INFO	Listening on port 55085
+1559806583558	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17080, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17080, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559806588032	Marionette	INFO	Stopped listening on port 55085
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559806645693	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.eDP12nY6OOkw"
+1559806646171	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559806646171	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559806646171	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559806647487	Marionette	INFO	Listening on port 55185
+1559806647810	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559774912279%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 7952, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/[Parent 7952, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0099,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0088,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+[Child 7252, Chrome_ChildThread] WARNING: pipe
+###!!! [Child][MessageChannel] Error: (msgtype=0x1F0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+ error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: resource://gre/modules/AutoCompletePopupContent.jsm, line 102: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1F0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/AutoCompletePopupContent.jsm, line 102: NS_ERROR_UNEXPECTED: 
+[Parent 7952,
+###!!! [Child][MessageChannel] Error: (msgtype=0x1F002B,name=PBrowser::Msg_EnableDisableCommands) Closed channel: cannot send/recv
+
+ Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1F0017,name=PBrowser::Msg_NotifyIMEFocus) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1F002E,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1F002E,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x360113,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+der*
+1559806737667	Marionette	INFO	Listening on port 55317
+1559806738025	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10892, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14780,[Parent 10892, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559806744770	Marionette	INFO	Stopped listening on port 55317
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 91
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559806777734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.wiONVy9VDicN"
+1559806778195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559806778195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559806778195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559806779684	Marionette	INFO	Listening on port 55381
+1559806779868	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17836, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2216, Chrome_Chi[Parent 17836, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[1559806789847	Marionette	INFO	Stopped listening on port 55381
+[GPU 1827
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560040996373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.lyvrdpPQgCVy"
+1560040996829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560040996829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560040996829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560040998318	Marionette	INFO	Listening on port 54935
+1560040998489	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15591332[Parent 8044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560041001953	Marionette	INFO	Stopped listening on port 54935
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560041037402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.qEmSFVDmQsO0"
+1560041037831	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560041037832	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560041037832	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560041039221	Marionette	INFO	Listening on port 54998
+1560041039533	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4200, Chrome_ChildThread] WARNING: pipe [Parent 10064, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3780, Chrome_C[Parent 10064, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14460, Chrome1560041044785	Marionette	INFO	Stopped listening on port 54998
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560041142888	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.ILeyj1fSz1XH"
+*** You are running in headless mode.
+1560041143340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560041143341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560041143341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560041144448	Marionette	INFO	Listening on port 55119
+1560041144504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560041176648	Marionette	INFO	Stopped listening on port 55119
+[Child 9800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromiu[Parent 15800, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+m/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9800, Chrome_ChildThread] 1560041278723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.5eK0HdVuIGsy"
+*** You are running in headless mode.
+1560041279181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560041279181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560041279181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560041280447	Marionette	INFO	Listening on port 55242
+1560041280842	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+nvalid extension permission: resource://pdf.js/
+1560041375892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560041377080	Marionette	INFO	Listening on port 55354
+1560041377577	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 781: TypeError: docShell.failedChannel is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.7wxDNG35BiSO"
+*** You are running in headless mode.
+1560041964078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560041964078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560041964078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560041965513	Marionette	INFO	Listening on port 55684
+1560041965723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560042013212	Marionette	INFO	Stopped listening on port 55684
+[Parent 5244, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8864, Chrome_ChildT[Parent 5244, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6288, Chrome_ChildThread] WARN[Parent 5244, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task1560042057522	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.2gbL3PJxQ2pn"
+*** You are running in headless mode.
+1560042058014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560042058014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560042058014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560042059331	Marionette	INFO	Listening on port 55795
+1560042059639	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 781: TypeError: docShell.failedChannel is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1560142436951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.lmKLxqzMRnaa"
+*** You are running in headless mode.
+1560142437326	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560142437326	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560142437326	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560142438569	Marionette	INFO	Listening on port 62396
+1560142439066	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15372, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/srcconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+nshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560142636896	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560142638178	Marionette	INFO	Listening on port 62526
+1560142638644	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3508, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11212, Chrconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+39945	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560142739946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560142741327	Marionette	INFO	Listening on port 62619
+1560142741689	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19184, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+ission: mozillaAddons
+1560142793419	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560142793419	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560142794657	Marionette	INFO	Listening on port 62694
+1560142794666	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14632, Chrome_console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+35504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560143035504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560143036830	Marionette	INFO	Listening on port 62983
+1560143037175	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+nshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560143075940	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560143077416	Marionette	INFO	Listening on port 63047
+1560143077589	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16172, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18852, Chrome_ChilJavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+89241	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560143089241	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560143090504	Marionette	INFO	Listening on port 63105
+1560143090913	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8816, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1591JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+76610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560143176610	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560143177860	Marionette	INFO	Listening on port 63207
+1560143178297	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13112, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, liJavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+87411	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560143187411	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560143188776	Marionette	INFO	Listening on port 63258
+1560143189069	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3464, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+nshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560143194616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560143195993	Marionette	INFO	Listening on port 63305
+1560143196249	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19880, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 204JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+nshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560143280557	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560143281850	Marionette	INFO	Listening on port 63420
+1560143282232	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 21060, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2058JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+nshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560143291546	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560143292825	Marionette	INFO	Listening on port 63473
+1560143293209	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20540, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2032JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+nshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560143297900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560143299189	Marionette	INFO	Listening on port 63520
+1560143299533	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 22116, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+emote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.SBuv2y3XhIDT"
+*** You are running in headless mode.
+1560145067365	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560145067366	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560145067366	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560145068666	Marionette	INFO	Listening on port 64963
+1560145069115	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560145082507	Marionette	INFO	Stopped listening on port 64963
+[Child 22780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/t[Parent 10292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 223[Parent 10292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/ta1560145470088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.b1Jp4l44ypdu"
+*** You are running in headless mode.
+1560145470459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560145470460	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560145470460	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560145471820	Marionette	INFO	Listening on port 65249
+1560145472198	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17668, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17668, Gecko_IOThread] WARNING: file z:/task_1559133213/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+nshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560145530031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560145531570	Marionette	INFO	Listening on port 65328
+1560145531776	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 23196, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14340, JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+ission: mozillaAddons
+1560145653609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560145653609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560145654918	Marionette	INFO	Listening on port 65440
+1560145655352	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+zilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560145721550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560145723113	Marionette	INFO	Listening on port 65524
+1560145723250	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13164, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 24164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 241JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+ extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560145875315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560145876676	Marionette	INFO	Listening on port 49263
+1560145877041	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+nshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560145928394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560145929806	Marionette	INFO	Listening on port 49339
+1560145930144	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 25264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25264, Chrome_ChildThread] WARNING: pipe error: 109: JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+nvalid extension permission: resource://pdf.js/
+1560145948565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560145950007	Marionette	INFO	Listening on port 49395
+1560145950300	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 25552, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.UMHCQUWOqhrL"
+*** You are running in headless mode.
+1560146219441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560146219441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560146219441	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560146221069	Marionette	INFO	Listening on port 49585
+1560146221146	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560146230760	Marionette	INFO	Stopped listening on port 49585
+[Parent 25328, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 25328, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 26236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 26236, Chrome_ChildThre1560147860552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.Pm4BcBwyGUym"
+*** You are running in headless mode.
+1560147860956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560147860956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560147860956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560147862859	Marionette	INFO	Listening on port 50690
+1560147863261	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 25248, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559865839282%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1560196273068	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.HjhRLzHLEg1A"
+*** You are running in headless mode.
+1560196273530	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560196273530	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560196273530	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560196274799	Marionette	INFO	Listening on port 62080
+1560196275191	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 38JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+1560196277188	Marionette	INFO	Stopped listening on port 62080
+[Child 7120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7120,[Ch iCld 23056, Chrome_ChildThrehrome_Chilad] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2[Parent 11244, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17996, Chrome_Ch1560196612102	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.cI2y11Cfmp4a"
+*** You are running in headless mode.
+1560196612543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560196612543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560196612543	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560196613755	Marionette	INFO	Listening on port 62351
+1560196614218	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 52JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560196615510	Marionette	INFO	Stopped listening on port 62351
+[Child 16980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 169[Parent 6044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 188001560196644754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.e05xYwkommYI"
+*** You are running in headless mode.
+1560196645194	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560196645195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560196645195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560196646456	Marionette	INFO	Listening on port 62409
+1560196646874	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560196648190	Marionette	INFO	Stopped listening on port 62409
+[Child 6432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14052, Chrome_Child[Parent 11784, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12391560196695494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.6XHgsMeV3xZL"
+*** You are running in headless mode.
+1560196695947	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560196695948	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560196695948	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560196697211	Marionette	INFO	Listening on port 62487
+1560196697610	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16128, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6524JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560196698942	Marionette	INFO	Stopped listening on port 62487
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[[Parent 16128, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560196975702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.YKPZiTGck0Uz"
+*** You are running in headless mode.
+1560196976161	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560196976162	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560196976162	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560196977396	Marionette	INFO	Listening on port 62673
+1560196977831	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 19672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 196JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+1560196979705	Marionette	INFO	Stopped listening on port 62673
+[Parent 14944, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/ch[Parent 14944, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18501560197138917	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.pyk46Gei36Iy"
+*** You are running in headless mode.
+1560197139357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560197139357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560197139358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560197140567	Marionette	INFO	Listening on port 62802
+1560197141041	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18360, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560197142209	Marionette	INFO	Stopped listening on port 62802
+[Parent 18360, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18360, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18360, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560197444456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.8bW3bRiikjjn"
+*** You are running in headless mode.
+1560197444926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560197444927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560197444927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560197446373	Marionette	INFO	Listening on port 63036
+1560197446572	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221560186355257%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+ission: mozillaAddons
+1560197549081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560197549081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560197550313	Marionette	INFO	Listening on port 63138
+1560197550759	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560197560996	Marionette	INFO	Stopped listening on port 63138
+[Child 21476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2188, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20904, Chrome_ChildThread] WARNING: pipe e[Parent 2188, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560197985350	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.C2Kua5MHuxvh"
+*** You are running in headless mode.
+1560197985811	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560197985811	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560197985811	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560197987118	Marionette	INFO	Listening on port 63529
+1560197987465	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 980, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3940, CJavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560197988823	Marionette	INFO	Stopped listening on port 63529
+[Child 4260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 595: TypeError: this.tablesData[table] is undefined
+[Parent 980, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560198012625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.peAGF6c6xNRN"
+*** You are running in headless mode.
+1560198013079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560198013080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560198013080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560198014322	Marionette	INFO	Listening on port 63589
+1560198014753	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 864, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560198016115	Marionette	INFO	Stopped listening on port 63589
+[Parent 864, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 24164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 24164, Chrome_Ch[Parent 864, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7221560210857106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.x5xiIpjABgrX"
+*** You are running in headless mode.
+1560210857531	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560210857531	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560210857531	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560210858721	Marionette	INFO	Listening on port 49341
+1560210859220	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 26076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 200, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 200JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560210860544	Marionette	INFO	Stopped listening on port 49341
+[Child 21732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21732, Chrome_ChildThre[Child 7868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7868, Chrome_ChildThread] WARNING: pipe [Parent 26076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560210985743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.YWeVjpyImLwH"
+*** You are running in headless mode.
+1560210986185	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560210986186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560210986186	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560210987339	Marionette	INFO	Listening on port 49461
+1560210987360	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 925JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560210988672	Marionette	INFO	Stopped listening on port 49461
+[Parent 17624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560215072388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.qzH5Tt0v1Bvn"
+*** You are running in headless mode.
+1560215072823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560215072823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560215072823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560215073943	Marionette	INFO	Listening on port 52666
+1560215073999	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560215082157	Marionette	INFO	Stopped listening on port 52666
+[Parent 6624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3848, Chrome_ChildThread] [Parent 6624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560215167891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.IhDLlouwUR1b"
+*** You are running in headless mode.
+1560215168344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560215168344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560215168344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560215169533	Marionette	INFO	Listening on port 52776
+1560215170016	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15296, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5012, JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560215171378	Marionette	INFO	Stopped listening on port 52776
+[Parent 15296, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2335[Child 12380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12380, Chrome_ChildT[Parent 15296, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560215186297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.YNGbEqE5vuOu"
+*** You are running in headless mode.
+1560215186728	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560215186728	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560215186728	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560215188009	Marionette	INFO	Listening on port 52825
+1560215188413	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/buJavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560215189723	Marionette	INFO	Stopped listening on port 52825
+[Parent 22392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 22392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20356, Chrome_[Parent 22392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560215250435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.cEOyickNwabV"
+*** You are running in headless mode.
+1560215250924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560215250925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560215250925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560215252082	Marionette	INFO	Listening on port 52892
+1560215252549	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560215253836	Marionette	INFO	Stopped listening on port 52892
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[Child 17660, [Parent 1088, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560215286661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.XlOC70bIECv9"
+*** You are running in headless mode.
+1560215287099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560215287100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560215287100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560215288187	Marionette	INFO	Listening on port 52942
+1560215288286	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 768, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 24204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2420JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560215289653	Marionette	INFO	Stopped listening on port 52942
+[Parent 768, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 524[Parent 768, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 24944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2491560215331469	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.DgLEMfDTa2U4"
+*** You are running in headless mode.
+1560215331934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560215331934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560215331934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560215333133	Marionette	INFO	Listening on port 53004
+1560215333583	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16256, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1540JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560215334892	Marionette	INFO	Stopped listening on port 53004
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[Child 23680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23[Parent 16256, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15812, C1560215356741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.n2XNNjGpWAIh"
+*** You are running in headless mode.
+1560215357173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560215357173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560215357173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560215358383	Marionette	INFO	Listening on port 53052
+1560215358854	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1848, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560215360188	Marionette	INFO	Stopped listening on port 53052
+[Child 2580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2[Parent 1848, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19288, Chr1560216025507	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.3Esj3gVJ1Ckm"
+*** You are running in headless mode.
+1560216025955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560216025955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560216025955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560216027069	Marionette	INFO	Listening on port 53389
+1560216027127	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10156, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6036, CJavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560216028495	Marionette	INFO	Stopped listening on port 53389
+[Parent 10156, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10156, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2096, Chrome_Chil[Child 13820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560217334390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.DrYgqXuipkDg"
+*** You are running in headless mode.
+1560217334841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560217334841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560217334842	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560217336100	Marionette	INFO	Listening on port 54150
+1560217336508	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16232, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10772, Chrome_ChilJavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/first.js, line 1: ReferenceError: define is not defined
+1560217338640	Marionette	INFO	Stopped listening on port 54150
+[Parent 16232, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 16232, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560217944109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.aRYGuggE07Sv"
+*** You are running in headless mode.
+1560217944555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560217944555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560217944555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560217945764	Marionette	INFO	Listening on port 54823
+1560217946221	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15188, Chrome_ChJavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560217947563	Marionette	INFO	Stopped listening on port 54823
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 61: TypeError: this.mm.content is null
+[Parent 26356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560217991853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.VZIr55Fqhfvx"
+*** You are running in headless mode.
+1560217992312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560217992312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560217992312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560217993670	Marionette	INFO	Listening on port 54880
+1560217993968	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221560206791251%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+ission: mozillaAddons
+1560218146741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560218146741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560218147987	Marionette	INFO	Listening on port 55053
+1560218148388	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12244, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560218149720	Marionette	INFO	Stopped listening on port 55053
+[Child 11824, Chrome_ChildThread] WARNING: pipe error: 109: f[Chilile z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341d
+ 25684,[Child 118 Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25[Parent 12244, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560218360879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.PKFBNr01k2HG"
+*** You are running in headless mode.
+1560218361308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560218361308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560218361308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560218362402	Marionette	INFO	Listening on port 55255
+1560218362491	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560218394076	Marionette	INFO	Stopped listening on port 55255
+[Child 3616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chro[Child 11280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17096, Chrome_ChildThread] WARNING: pipe error: 109: fil1560218487691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.Fbp3wz116jyW"
+*** You are running in headless mode.
+1560218488160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560218488160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560218488160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560218489404	Marionette	INFO	Listening on port 55369
+1560218489806	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560218497034	Marionette	INFO	Stopped listening on port 55369
+[Child 10984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10984, Chrome_ChildThread] WARNING: [Child 14148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14148[Parent 20412, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10112, Chrome_ChildThread] WARNING: pipe error: 109:1560218586366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.sBPeM5LtEvvt"
+*** You are running in headless mode.
+1560218586792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560218586793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560218586793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560218588002	Marionette	INFO	Listening on port 55468
+1560218588480	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560218592817	Marionette	INFO	Stopped listening on port 55468
+[Parent 25116, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, [line 341C
+hild 115[Child 15616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11516, Chrome_ChildThre[Parent 25116, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560218994838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.4WlspicT0pey"
+*** You are running in headless mode.
+1560218995305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560218995306	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560218995306	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560218996575	Marionette	INFO	Listening on port 55839
+1560218996953	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221560206791251%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+ission: mozillaAddons
+1560219018307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219018307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219019432	Marionette	INFO	Listening on port 55883
+1560219019489	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560219033495	Marionette	INFO	Stopped listening on port 55883
+[Parent 16280, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1884, Chro[Parent 16280, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560219169267	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.pP9EJ22U5msq"
+*** You are running in headless mode.
+1560219169708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219169708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219169708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219170959	Marionette	INFO	Listening on port 56015
+1560219171387	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560219194166	Marionette	INFO	Stopped listening on port 56015
+[Child 9748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12384, 1560219213411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.ZPIfdoGt5292"
+*** You are running in headless mode.
+1560219213847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219213847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219213847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219214936	Marionette	INFO	Listening on port 56079
+1560219215030	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560219229011	Marionette	INFO	Stopped listening on port 56079
+[Child 2016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2016, Chrome[Parent 9820, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560219270848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.CZynWDsVc6v8"
+1560219271283	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219271283	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219271284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219272588	Marionette	INFO	Listening on port 56154
+1560219272964	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18036, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18036, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18808, Chrome_ChildThread] WARNING: pipe er1560219283260	Marionette	INFO	Stopped listening on port 56154
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219317346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.VKcsc87dnQ63"
+1560219317794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219317794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219317794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219319174	Marionette	INFO	Listening on port 56215
+1560219319465	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 25816, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 25816, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/i[Parent 25816, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22444, Chro1560219351628	Marionette	INFO	Stopped listening on port 56215
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219362053	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.0IQS3IPUs7VL"
+1560219362514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219362514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219362514	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219363797	Marionette	INFO	Listening on port 56278
+1560219364177	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560219372762	Marionette	INFO	Stopped listening on port 56278
+[Parent 19516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 19516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win[Parent 19516, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 23996, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219394543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.sETSj38lALpE"
+1560219394979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219394980	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219394980	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219396348	Marionette	INFO	Listening on port 56334
+1560219396674	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11784, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11784, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20648, C[Child 22584, Chrome_ChildThread] WARNIhNG: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/b[Parent 11784, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25652, Chro1560219409950	Marionette	INFO	Stopped listening on port 56334
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 24920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219418219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.OQZQbskna3Lv"
+1560219418657	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219418657	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219418657	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219419876	Marionette	INFO	Listening on port 56387
+1560219420333	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5312, Chrome_ChildT[Parent 8260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/[Child 26108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 26108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/bui[Parent 8260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10756, C1560219440276	Marionette	INFO	Stopped listening on port 56387
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219470264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.omGFQEl0IC9U"
+1560219470689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219470689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219470690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219472071	Marionette	INFO	Listening on port 56478
+1560219472382	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25092, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+[Child 25092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, linconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221560206791251%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 4044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc[Child 7368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560221954863	Marionette	INFO	Stopped listening on port 56478
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 15120, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219612158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.SV40cwrcETkV"
+1560219612591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219612591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219612591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219613994	Marionette	INFO	Listening on port 56691
+1560219614279	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11696, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11696, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1724, Chrome_Chi1560219620240	Marionette	INFO	Stopped listening on port 56691
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219632170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.cxEnCOScoUBn"
+1560219632607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219632607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219632607	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219634015	Marionette	INFO	Listening on port 56744
+1560219634285	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 15656, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chr[Child 16528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16528, Chrome_ChildThread] WARN[Parent 15656, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560219673265	Marionette	INFO	Stopped listening on port 56744
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 13324
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219731621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.FnofJBl6YY5b"
+1560219732085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219732086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219732086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219733465	Marionette	INFO	Listening on port 56870
+1560219733736	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8924, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10940, Chrome_ChildThread] WARNING: pipe error[Parent 8924, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 194[Parent 8924, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560219773256	Marionette	INFO	Stopped listening on port 56870
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219781033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.ZeFy976nfNKz"
+1560219781505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219781505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219781505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219782768	Marionette	INFO	Listening on port 56964
+1560219783166	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17640, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17640, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/[Child 5952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5952[Parent 17640, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14600, Chrome_ChildThread] WARNI1560219841762	Marionette	INFO	Stopped listening on port 56964
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219882843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.mYeDVj4wkhVi"
+1560219883287	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219883287	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219883287	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219884537	Marionette	INFO	Listening on port 57087
+1560219884960	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10720, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10720, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 25632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/i[Child 403pc_channel_win.cc, line 3416
+, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_[Parent 10720, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560219891670	Marionette	INFO	Stopped listening on port 57087
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560219984228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.GqkNwiT99HhD"
+1560219984665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560219984665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560219984665	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560219986055	Marionette	INFO	Listening on port 57203
+1560219986344	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560220143574	Marionette	INFO	Stopped listening on port 57203
+[Parent 20224, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 20224, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/[GPU 17008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560220153719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.8y9OLq978tqa"
+1560220154157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560220154157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560220154157	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560220155465	Marionette	INFO	Listening on port 57341
+1560220155834	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560220169071	Marionette	INFO	Stopped listening on port 57341
+[Parent 7200, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7200, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7200, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22592, Chrome_ChildThread] WARNING: pipe error: 109
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560220583595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.VqQqrMXPoCeX"
+*** You are running in headless mode.
+1560220584033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560220584033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560220584034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560220585221	Marionette	INFO	Listening on port 57656
+1560220585711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560220601404	Marionette	INFO	Stopped listening on port 57656
+[Parent 18484, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/bui[Parent 18484, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18360, Chrome_ChildThread] WARNING: p[Parent 18484, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23176, Chrome_ChildThread] WARNING: pipe error: 109: f1560220702198	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.4p9pTVkq3P49"
+*** You are running in headless mode.
+1560220702636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560220702636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560220702636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560220703853	Marionette	INFO	Listening on port 57831
+1560220704314	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560220716078	Marionette	INFO	Stopped listening on port 57831
+[Parent 200, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 200, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1560221119530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.PkPqQsOAdUrs"
+1560221119972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560221119972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560221119972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560221121234	Marionette	INFO	Listening on port 58136
+1560221121648	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560221131265	Marionette	INFO	Stopped listening on port 58136
+[Parent 15340, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18[Parent 15340, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+GPU 17720, Chrome_ChildThread] WARNING: pipe error
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560221516021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.dzikb64knc4F"
+*** You are running in headless mode.
+1560221516473	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560221516474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560221516474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560221517575	Marionette	INFO	Listening on port 58418
+1560221517634	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19776, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13596, ChromJavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560221519031	Marionette	INFO	Stopped listening on port 58418
+[Parent 19776, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/commo[Parent 19776, Gecko_IOThread] WARNING: file z:/task_1559133213/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Child 3768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3768, Ch1560221699254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.j9kL0WwZxfn8"
+*** You are running in headless mode.
+1560221699733	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560221699733	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560221699733	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560221701133	Marionette	INFO	Listening on port 58552
+1560221701378	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17888, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1608, ChromJavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/06560f3a30, line 1: ReferenceError: NREUM is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/nr-1123.js, line 1: Error: Cannot find module 'loader'
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_002.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_003.php, line 1: ReferenceError: YUI is not defined
+JavaScript error: file:///C:/Users/cnssc/Desktop/cs%20162/Grades%20_files/yui_combo_004.php, line 8: ReferenceError: YUI is not defined
+1560221702790	Marionette	INFO	Stopped listening on port 58552
+[Parent 17888, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipcJavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 595: TypeError: this.tablesData[table] is undefined
+[Parent 17888, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 876,1560221712130	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.FiR2ezuemFYu"
+*** You are running in headless mode.
+1560221712590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560221712591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560221712591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560221713815	Marionette	INFO	Listening on port 58594
+1560221714247	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221560206791251%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+

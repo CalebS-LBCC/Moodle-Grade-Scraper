@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html dir="ltr" xml:lang="en-us" class="yui3-js-enabled gr__elearning_linnbenton_edu" lang="en-us"><head>
+    <title>Grades: View</title>
+    <link rel="shortcut icon" href="https://elearning.linnbenton.edu/theme/image.php/boost/theme/1559247562/favicon">
+    <meta name="apple-itunes-app" content="app-id=633359593, app-argument=https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687"><link rel="manifest" href="https://elearning.linnbenton.edu/admin/tool/mobile/mobile.webmanifest.php"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="Grades%20_files/06560f3a30"></script><script src="Grades%20_files/nr-1123.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1123.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="keywords" content="moodle, Grades: View">
+<link rel="stylesheet" type="text/css" href="Grades%20_files/yui_combo.css"><link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1560032965591_8" href="Grades%20_files/yui_combo_002.css"><script charset="utf-8" id="yui_3_17_2_1_1560032965591_9" src="Grades%20_files/yui_combo_003.php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1560032965591_25" src="Grades%20_files/yui_combo_002.php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1560032965591_28" src="Grades%20_files/yui_combo_004.php" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="Grades%20_files/all.css">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/elearning.linnbenton.edu","sesskey":"24ixzVSodJ","themerev":"1559247562","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1559247562","admin":"admin","svgicons":true,"usertimezone":"America\/Los_Angeles","contextid":1041108};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/elearning.linnbenton.edu\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/elearning.linnbenton.edu\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/elearning.linnbenton.edu\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/elearning.linnbenton.edu\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/elearning.linnbenton.edu\/theme\/yui_combo.php?m\/1559247562\/","combine":true,"comboBase":"https:\/\/elearning.linnbenton.edu\/theme\/yui_combo.php?","ext":false,"root":"m\/1559247562\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-core_outcome-mapoutcomeset":{"requires":["widget","model","model-list","handlebars","json-parse","json-stringify","moodle-core_outcome-models","moodle-core-notification-dialogue","moodle-core-notification-exception","moodle-core-notification-alert","moodle-core_outcome-simpleio"]},"moodle-core_outcome-dynamicpanel":{"requires":["base","moodle-core_outcome-simpleio","classnamemanager","moodle-core-notification-dialogue","moodle-core_outcome-scrollpanel"]},"moodle-core_outcome-editoutcome":{"requires":["widget","event-valuechange","handlebars","json-parse","json-stringify","moodle-core_outcome-models","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-core_outcome-models":{"requires":["base","model","model-list","moodle-core_outcome-simpleio","json-stringify"]},"moodle-core_outcome-scrollpanel":{"requires":["plugin","widget","panel"]},"moodle-core_outcome-simpleio":{"requires":["base","io-base","json-parse","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core_outcome-mapoutcome":{"requires":["widget","handlebars","json-parse","json-stringify","moodle-core_outcome-models","moodle-core_outcome-outcomepanel","moodle-core-notification-exception"]},"moodle-core_outcome-ariacontrol":{"requires":["plugin","widget","escape"]},"moodle-core_outcome-ariacontrolled":{"requires":["plugin","widget"]},"moodle-core_outcome-outcomepanel":{"requires":["base","handlebars","moodle-core_outcome-models","moodle-core_outcome-scrollpanel","moodle-core_outcome-ariacontrol","moodle-core_outcome-ariacontrolled","moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core_outcome-simpleio"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_releasecode-form":{"requires":["base","node","event","event-valuechange","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_hsuforum-io":{"requires":["base","io-base","io-form","io-upload-iframe","json-parse"]},"moodle-mod_hsuforum-livelog":{"requires":["widget"]},"moodle-mod_hsuforum-article":{"requires":["base","node","event","router","core_rating","querystring","moodle-mod_hsuforum-io","moodle-mod_hsuforum-livelog","moodle-core-formchangechecker"]},"moodle-mod_iassign-history":{"requires":["node","transition"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_gapps-popup":{"requires":["base","event"]},"moodle-block_gapps-gmail":{"requires":["base","event","handlebars"]},"moodle-block_xp-filters":{"requires":["base","node","moodle-core-dragdrop","moodle-block_xp-rulepicker"]},"moodle-block_xp-rulepicker":{"requires":["base","node","handlebars","moodle-core-notification-dialogue"]},"moodle-block_xp-notification":{"requires":["base","node","handlebars","button-plugin","moodle-core-notification-dialogue"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-report_outcome-autocomplete":{"requires":["base","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-report_outcome-resetoptions":{"requires":["base","moodle-core_outcome-simpleio"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bsgrid-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_chemistry-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_count-button":{"requires":["io","json-parse","moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_filedragdrop-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_hr-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_htmlplus-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_htmlplus-beautify","moodle-atto_htmlplus-codemirror","event-valuechange"]},"moodle-atto_htmlplus-beautify":{},"moodle-atto_htmlplus-codemirror":{"requires":["moodle-atto_htmlplus-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_imagedragdrop-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_kalturamedia-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-local_kaltura-ltiservice":{"requires":["base","node","node-event-simulate"]},"moodle-local_kaltura-ltitinymcepanel":{"requires":["base","node","panel","node-event-simulate"]},"moodle-local_kaltura-ltipanel":{"requires":["base","node","panel","node-event-simulate"]},"moodle-local_kaltura-lticontainer":{"requires":["base","node"]}}},"gallery":{"name":"gallery","base":"https:\/\/elearning.linnbenton.edu\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/elearning.linnbenton.edu\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1559247562\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/elearning.linnbenton.edu\/lib\/javascript.php\/1559247562\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/elearning.linnbenton.edu\/lib\/javascript.php\/1559247562\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<link rel="stylesheet" href="Grades%20_files/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="Grades%20_files/first.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="Grades%20_files/jquery-3.js"></script><script type="text/x-mathjax-config">
+
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    TeX: { extensions: ["AMSmath.js","AMSsymbols.js","mhchem.js","noErrors.js","noUndefined.js"] },
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><link rel="stylesheet" type="text/css" href="Grades%20_files/moodlerooms-bc967ae08c.css"></head>
+<body id="page-grade-report-overview-index" class="format-weeks path-grade path-grade-report path-grade-report-overview gecko dir-ltr lang-en_us yui-skin-sam yui3-skin-sam elearning-linnbenton-edu pagelayout-report course-4746 context-1041108 category-159 drawer-open-left jsenabled" data-gr-c-s-loaded="true">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="Grades%20_files/yui_combo.php"></script><script type="text/javascript" src="Grades%20_files/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site navigation">
+    
+            <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true" aria-label=""></i><span class="sr-only">Side panel</span></button>
+            </div>
+    
+            <a href="https://elearning.linnbenton.edu/" class="navbar-brand has-logo
+                    ">
+                    <span class="logo d-none d-sm-inline">
+                        <img src="Grades%20_files/lbcclogocorner.jpg" alt="LBCC eLearning">
+                    </span>
+                <span class="site-name d-none d-md-inline">LBCC eLearning</span>
+            </a>
+    
+            <ul class="navbar-nav d-none d-md-flex">
+                <!-- custom_menu -->
+                <li class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-5cfc36c433c1e5cfc36c430f5e4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" aria-controls="drop-down-menu-5cfc36c433c1e5cfc36c430f5e4">
+        English - United States ‎(en_us)‎
+    </a>
+    <div class="dropdown-menu" role="menu" id="drop-down-menu-5cfc36c433c1e5cfc36c430f5e4" aria-labelledby="drop-down-5cfc36c433c1e5cfc36c430f5e4">
+                <a class="dropdown-item" role="menuitem" href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=en_us" title="English - United States ‎(en_us)‎">English - United States ‎(en_us)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=es_mx" title="Español - México ‎(es_mx)‎">Español - México ‎(es_mx)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=vi" title="Vietnamese ‎(vi)‎">Vietnamese ‎(vi)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=ar" title="عربي ‎(ar)‎">عربي ‎(ar)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=ko" title="한국어 ‎(ko)‎">한국어 ‎(ko)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=ja" title="日本語 ‎(ja)‎">日本語 ‎(ja)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=zh_cn" title="简体中文 ‎(zh_cn)‎">简体中文 ‎(zh_cn)‎</a>
+    </div>
+</li>
+                <!-- page_heading_menu -->
+                
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <div class="d-none d-lg-block">
+                
+            </div>
+                <!-- navbar_plugin_output -->
+                <li class="nav-item">
+                <div class="popover-region collapsed popover-region-messages" id="nav-message-popover-container" data-userid="303687" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5cfc36c43f5aa5cfc36c430f5e5" aria-haspopup="true" aria-label="Show message window with no new messages" tabindex="0">
+                <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Toggle messages menu" aria-label="Toggle messages menu"></i>
+        <div class="count-container " data-region="count-container">1</div>
+
+    </div>
+    <div id="popover-region-container-5cfc36c43f5aa5cfc36c430f5e5" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Notification window" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Messages</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="newmessage-link">
+            <a href="https://elearning.linnbenton.edu/message/index.php?contactsfirst=1">New message
+            </a>
+        </div>
+        <a class="mark-all-read-button" href="#" role="button" title="Mark all as read" data-action="mark-all-read">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+        </a>
+        <a href="https://elearning.linnbenton.edu/message/edit.php?id=303687" title="Message preferences">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Message preferences" aria-label="Message preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">No messages</div>
+
+            </div>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+        </div>
+                <a class="see-all-link" href="https://elearning.linnbenton.edu/message/index.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed popover-region-notifications" id="nav-notification-popover-container" data-userid="303687" data-region="popover-region">
+    <div class="popover-region-toggle nav-link" data-region="popover-region-toggle" aria-role="button" aria-controls="popover-region-container-5cfc36c4409b55cfc36c430f5e6" aria-haspopup="true" aria-label="Show notification window with no new notifications" tabindex="0">
+                <i class="icon fa fa-bell fa-fw " aria-hidden="true" title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+        <div class="count-container hidden" data-region="count-container">0</div>
+
+    </div>
+    <div id="popover-region-container-5cfc36c4409b55cfc36c430f5e6" class="popover-region-container" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Notification window" role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button" href="#" title="Mark all as read" data-action="mark-all-read" role="button">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+        </a>
+        <a href="https://elearning.linnbenton.edu/message/notificationpreferences.php?userid=303687" title="Notification preferences">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Notification preferences" aria-label="Notification preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+        </div>
+                <a class="see-all-link" href="https://elearning.linnbenton.edu/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div>
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a tabindex="0" class=" dropdown-toggle icon-no-margin" id="dropdown-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
+                            
+                            <span class="userbutton"><span class="usertext mr-1">Caleb Shilling</span><span class="avatars"><span class="avatar current"><img src="Grades%20_files/42b0674bbab090862fb142397842c8af.gif" alt="Picture of Caleb Shilling" title="Picture of Caleb Shilling" class="userpicture defaultuserpic" role="presentation" width="35" height="35"></span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+                                        <a href="https://elearning.linnbenton.edu/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                <i class="icon fa fa-tachometer fa-fw " aria-hidden="true" title="Dashboard" aria-label="Dashboard"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                Dashboard
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://elearning.linnbenton.edu/user/profile.php?id=303687" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                <i class="icon fa fa-user fa-fw " aria-hidden="true" title="Profile" aria-label="Profile"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                Profile
+                                            </span>
+                                        </a>
+                                        <a href="https://elearning.linnbenton.edu/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                <i class="icon fa fa-table fa-fw " aria-hidden="true" title="Grades" aria-label="Grades"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-3">
+                                                Grades
+                                            </span>
+                                        </a>
+                                        <a href="https://elearning.linnbenton.edu/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4">
+                                                <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Messages" aria-label="Messages"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-4">
+                                                Messages
+                                            </span>
+                                        </a>
+                                        <a href="https://elearning.linnbenton.edu/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5">
+                                                <i class="icon fa fa-wrench fa-fw " aria-hidden="true" title="Preferences" aria-label="Preferences"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-5">
+                                                Preferences
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://elearning.linnbenton.edu/login/logout.php?sesskey=24ixzVSodJ" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6">
+                                                <i class="icon fa fa-sign-out fa-fw " aria-hidden="true" title="Log out" aria-label="Log out"></i>
+                                            <span class="menu-action-text" id="actionmenuaction-6">
+                                                Log out
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div>
+                </li>
+            </ul>
+            <!-- search_box -->
+    </nav>
+    
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex">
+                    <div class="mr-auto">
+                    <div class="page-context-header"><div class="page-header-headings"><h1>CS162 - Introduction to Computer Science II w/ J. Paris: View: Overview report</h1></div></div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div id="page-navbar">
+                        <nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://elearning.linnbenton.edu/my/">Dashboard</a>
+                </li>
+                <li class="breadcrumb-item">My courses</li>
+                <li class="breadcrumb-item">
+                    <a href="https://elearning.linnbenton.edu/course/index.php?categoryid=181">Academics</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://elearning.linnbenton.edu/course/index.php?categoryid=159">Computer Science</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://elearning.linnbenton.edu/course/view.php?id=4746" title="CS162 - Introduction to Computer Science II w/ J. Paris">CS162_JP</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://elearning.linnbenton.edu/grade/report/index.php?id=4746">Grades</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746">Overview report</a>
+                </li>
+    </ol>
+</nav>
+                    </div>
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-12">
+                <section id="region-main">
+                    <div class="card" id="yui_3_17_2_1_1560032965591_32">
+                        <div class="card-body" id="yui_3_17_2_1_1560032965591_31">
+                            <span class="notifications" id="user-notifications"></span>
+                            <div role="main" id="yui_3_17_2_1_1560032965591_30"><span id="maincontent"></span><div class="urlselect">
+    <form method="post" action="https://elearning.linnbenton.edu/course/jumpto.php" class="form-inline" id="choosepluginreport">
+        <input type="hidden" name="sesskey" value="24ixzVSodJ">
+            <label for="url_select5cfc36c430f5e17" class="accesshide">
+                Grade report
+            </label>
+        <select id="url_select5cfc36c430f5e17" class="custom-select urlselect" name="jump">
+                    <optgroup label="View">
+                            <option value="/grade/report/overview/index.php?id=4746" selected="selected">Overview report</option>
+                            <option value="/grade/report/user/index.php?id=4746">User report</option>
+                    </optgroup>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary" value="Go">
+            </noscript>
+    </form>
+</div><h2 id="yui_3_17_2_1_1560032965591_29">Overview report - Caleb Shilling</h2><div class="grade-navigation"><ul class="nav nav-tabs mb-3">
+    <li class="nav-item">
+      <a class="nav-link active" title="Overview report">Overview report</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://elearning.linnbenton.edu/grade/report/user/index.php?id=4746" title="User report">User report</a>
+    </li>
+</ul></div><div class="no-overflow"><br><table id="overview-grade" class="flexible boxaligncenter generaltable" cellspacing="0"><thead><tr><th class="header c0" scope="col">Course name<div class="commands"></div></th><th class="header c1" scope="col">Grade<div class="commands"></div></th></tr></thead><tbody><tr class="" id="grade-report-overview-303687_r0"><td class="cell c0" id="grade-report-overview-303687_r0_c0"><a href="https://elearning.linnbenton.edu/grade/report/user/index.php?id=4746&amp;userid=303687">CS162 - Introduction to Computer Science II w/ J. Paris</a></td><td class="cell c1" id="grade-report-overview-303687_r0_c1">A (91.67 %)</td></tr><tr class="" id="grade-report-overview-303687_r1"><td class="cell c0" id="grade-report-overview-303687_r1_c0"><a href="https://elearning.linnbenton.edu/grade/report/user/index.php?id=2721&amp;userid=303687">ENG104 - Literature: Fiction w/ C. Riseley</a></td><td class="cell c1" id="grade-report-overview-303687_r1_c1">90.64 %</td></tr><tr class="" id="grade-report-overview-303687_r2"><td class="cell c0" id="grade-report-overview-303687_r2_c0"><a href="https://elearning.linnbenton.edu/grade/report/user/index.php?id=4719&amp;userid=303687">HST103 - History of Western Civilization w/ S. McAleer</a></td><td class="cell c1" id="grade-report-overview-303687_r2_c1">-</td></tr><tr class="emptyrow" id="grade-report-overview-303687_r3"><td class="cell c0" id="grade-report-overview-303687_r3_c0"></td><td class="cell c1" id="grade-report-overview-303687_r3_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r4"><td class="cell c0" id="grade-report-overview-303687_r4_c0"></td><td class="cell c1" id="grade-report-overview-303687_r4_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r5"><td class="cell c0" id="grade-report-overview-303687_r5_c0"></td><td class="cell c1" id="grade-report-overview-303687_r5_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r6"><td class="cell c0" id="grade-report-overview-303687_r6_c0"></td><td class="cell c1" id="grade-report-overview-303687_r6_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r7"><td class="cell c0" id="grade-report-overview-303687_r7_c0"></td><td class="cell c1" id="grade-report-overview-303687_r7_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r8"><td class="cell c0" id="grade-report-overview-303687_r8_c0"></td><td class="cell c1" id="grade-report-overview-303687_r8_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r9"><td class="cell c0" id="grade-report-overview-303687_r9_c0"></td><td class="cell c1" id="grade-report-overview-303687_r9_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r10"><td class="cell c0" id="grade-report-overview-303687_r10_c0"></td><td class="cell c1" id="grade-report-overview-303687_r10_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r11"><td class="cell c0" id="grade-report-overview-303687_r11_c0"></td><td class="cell c1" id="grade-report-overview-303687_r11_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r12"><td class="cell c0" id="grade-report-overview-303687_r12_c0"></td><td class="cell c1" id="grade-report-overview-303687_r12_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r13"><td class="cell c0" id="grade-report-overview-303687_r13_c0"></td><td class="cell c1" id="grade-report-overview-303687_r13_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r14"><td class="cell c0" id="grade-report-overview-303687_r14_c0"></td><td class="cell c1" id="grade-report-overview-303687_r14_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r15"><td class="cell c0" id="grade-report-overview-303687_r15_c0"></td><td class="cell c1" id="grade-report-overview-303687_r15_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r16"><td class="cell c0" id="grade-report-overview-303687_r16_c0"></td><td class="cell c1" id="grade-report-overview-303687_r16_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r17"><td class="cell c0" id="grade-report-overview-303687_r17_c0"></td><td class="cell c1" id="grade-report-overview-303687_r17_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r18"><td class="cell c0" id="grade-report-overview-303687_r18_c0"></td><td class="cell c1" id="grade-report-overview-303687_r18_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r19"><td class="cell c0" id="grade-report-overview-303687_r19_c0"></td><td class="cell c1" id="grade-report-overview-303687_r19_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r20"><td class="cell c0" id="grade-report-overview-303687_r20_c0"></td><td class="cell c1" id="grade-report-overview-303687_r20_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r21"><td class="cell c0" id="grade-report-overview-303687_r21_c0"></td><td class="cell c1" id="grade-report-overview-303687_r21_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r22"><td class="cell c0" id="grade-report-overview-303687_r22_c0"></td><td class="cell c1" id="grade-report-overview-303687_r22_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r23"><td class="cell c0" id="grade-report-overview-303687_r23_c0"></td><td class="cell c1" id="grade-report-overview-303687_r23_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r24"><td class="cell c0" id="grade-report-overview-303687_r24_c0"></td><td class="cell c1" id="grade-report-overview-303687_r24_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r25"><td class="cell c0" id="grade-report-overview-303687_r25_c0"></td><td class="cell c1" id="grade-report-overview-303687_r25_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r26"><td class="cell c0" id="grade-report-overview-303687_r26_c0"></td><td class="cell c1" id="grade-report-overview-303687_r26_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r27"><td class="cell c0" id="grade-report-overview-303687_r27_c0"></td><td class="cell c1" id="grade-report-overview-303687_r27_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r28"><td class="cell c0" id="grade-report-overview-303687_r28_c0"></td><td class="cell c1" id="grade-report-overview-303687_r28_c1"></td></tr><tr class="emptyrow" id="grade-report-overview-303687_r29"><td class="cell c0" id="grade-report-overview-303687_r29_c0"></td><td class="cell c1" id="grade-report-overview-303687_r29_c1"></td></tr></tbody></table></div></div>
+                            
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex " aria-hidden="false" tabindex="-1">
+        <nav class="list-group">
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">CS162_JP</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/user/index.php?id=4746" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-users fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Participants</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action active" href="https://elearning.linnbenton.edu/grade/report/index.php?id=4746" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-table fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body font-weight-bold">Grades</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-0" data-key="60093" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">General</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-1" data-key="60094" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">April 1 - April 7</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-2" data-key="60095" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">April 8 - April 14</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-3" data-key="60096" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">April 15 - April 21</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-4" data-key="60097" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">April 22 - April 28</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-5" data-key="60098" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">April 29 - May 5</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-6" data-key="60099" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">May 6 - May 12</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-7" data-key="60100" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">May 13 - May 19</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-8" data-key="60101" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">May 20 - May 26</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-9" data-key="60102" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">May 27 - June 2</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-10" data-key="60103" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">June 3 - June 9</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746#section-11" data-key="60104" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="4746">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">June 10 - June 16</span>
+                    </div>
+                </div>
+            </a>
+        </nav>
+        <nav class="list-group m-t-1">
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/my/" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Dashboard</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-home fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Resources &amp; Support</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/calendar/view.php?view=month&amp;course=4746" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">Calendar</span>
+                    </div>
+                </div>
+            </a>
+            <div class="list-group-item" data-key="mycourses" data-isexpandable="1" data-indent="0" data-showdivider="0" data-type="0" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                <div class="m-l-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body">My courses</span>
+                    </div>
+                </div>
+            </div>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4746" data-key="4746" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="159">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">CS162_JP</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=2721" data-key="2721" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="10">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">ENG104_CR_1</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://elearning.linnbenton.edu/course/view.php?id=4719" data-key="4719" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="25">
+                <div class="m-l-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true" aria-label=""></i>
+                        </span>
+                        <span class="media-body ">HST103_SM</span>
+                    </div>
+                </div>
+            </a>
+        </nav>
+    </div>
+</div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+
+<footer id="page-footer" class="py-3 bg-dark text-light">
+    <div class="container">
+        <div id="course-footer"></div>
+
+
+        <div class="logininfo">You are logged in as <a href="https://elearning.linnbenton.edu/user/profile.php?id=303687" title="View profile">Caleb Shilling</a> (<a href="https://elearning.linnbenton.edu/login/logout.php?sesskey=24ixzVSodJ">Log out</a>)</div>
+        <div class="tool_usertours-resettourcontainer"></div>
+        <div class="homelink"><a href="https://elearning.linnbenton.edu/course/view.php?id=4746">CS162_JP</a></div>
+        <nav class="nav navbar-nav d-md-none">
+                <ul class="list-unstyled pt-3">
+                                    <li><a href="#" title="Language">English - United States ‎(en_us)‎</a></li>
+                                <li>
+                                    <ul class="list-unstyled ml-3">
+                                                        <li><a href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=en_us" title="English - United States ‎(en_us)‎">English - United States ‎(en_us)‎</a></li>
+                                                        <li><a href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                                        <li><a href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=es_mx" title="Español - México ‎(es_mx)‎">Español - México ‎(es_mx)‎</a></li>
+                                                        <li><a href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=vi" title="Vietnamese ‎(vi)‎">Vietnamese ‎(vi)‎</a></li>
+                                                        <li><a href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=ar" title="عربي ‎(ar)‎">عربي ‎(ar)‎</a></li>
+                                                        <li><a href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=ko" title="한국어 ‎(ko)‎">한국어 ‎(ko)‎</a></li>
+                                                        <li><a href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=ja" title="日本語 ‎(ja)‎">日本語 ‎(ja)‎</a></li>
+                                                        <li><a href="https://elearning.linnbenton.edu/grade/report/overview/index.php?id=4746&amp;userid=303687&amp;lang=zh_cn" title="简体中文 ‎(zh_cn)‎">简体中文 ‎(zh_cn)‎</a></li>
+                                    </ul>
+                                </li>
+                </ul>
+        </nav>
+        <a href="https://download.moodle.org/mobile?version=2018051703.13&amp;lang=en_us&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Get the mobile app</a>
+        
+            <script>
+                var ally_module_maps = {"file_resources":[],"assignment_files":[],"forum_files":[],"folder_files":[],"glossary_files":[],"lesson_files":[]};
+                var ally_section_maps = [];
+                var ally_annotation_maps = {"mod_forum":{"posts":[],"intros":[]},"mod_book":{"intros":[],"chapters":[]},"mod_lesson":[],"mod_glossary":{"entries":[],"intros":[]},"mod_hsuforum":{"posts":[],"intros":{"425970":"hsuforum:hsuforum:intro:8731"}},"mod_page":{"intros":{"429400":"page:page:intro:40216","431374":"page:page:intro:40314","431600":"page:page:intro:40334"},"content":{"427889":"page:page:content:40036","429400":"page:page:content:40216","429402":"page:page:content:40218","431259":"page:page:content:40308","431289":"page:page:content:40311","431374":"page:page:content:40314","431600":"page:page:content:40334"}}};
+            </script><script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://elearning.linnbenton.edu/lib/requirejs.php/1559247562/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://elearning.linnbenton.edu/lib/javascript.php/1559247562/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://elearning.linnbenton.edu/lib/javascript.php/1559247562/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://elearning.linnbenton.edu/lib/javascript.php/1559247562/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="Grades%20_files/require.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["filter_ally/main"], function(amd) { amd.init("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NjAwMzI5NjQsImNvdXJzZV9pZCI6NDc0Niwicm9sZXMiOiJ1cm46bHRpOnJvbGU6aW1zXC9saXNcL0xlYXJuZXIiLCJ1c2VyX2lkIjozMDM2ODcsImxvY2FsZSI6ImVuX3VzIiwicmV0dXJuX3VybCI6Imh0dHBzOlwvXC9lbGVhcm5pbmcubGlubmJlbnRvbi5lZHUifQ.hfh5RS5xJUxcmsLiXoHlmTyBo131XpXjWzFrDVcDZ_c", {"adminurl":"https:\/\/prod.ally.ac\/api\/v1\/3784\/lti\/institution","pushurl":"https:\/\/prod.ally.ac\/api\/v1\/events","clientid":"3784"}, false, true, "4746", {}); });;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://elearning.linnbenton.edu/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Audio Player": "Audio Player",
+ "Video Player": "Video Player",
+ "Play": "Play",
+ "Pause": "Pause",
+ "Replay": "Replay",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Progress Bar": "Progress Bar",
+ "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "Volume Level": "Volume Level",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected",
+ "captions settings": "captions settings",
+ "subtitles settings": "subititles settings",
+ "descriptions settings": "descriptions settings",
+ "Text": "Text",
+ "White": "White",
+ "Black": "Black",
+ "Red": "Red",
+ "Green": "Green",
+ "Blue": "Blue",
+ "Yellow": "Yellow",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Background",
+ "Window": "Window",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-Transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Font Size",
+ "Text Edge Style": "Text Edge Style",
+ "None": "None",
+ "Raised": "Raised",
+ "Depressed": "Depressed",
+ "Uniform": "Uniform",
+ "Dropshadow": "Dropshadow",
+ "Font Family": "Font Family",
+ "Proportional Sans-Serif": "Proportional Sans-Serif",
+ "Monospace Sans-Serif": "Monospace Sans-Serif",
+ "Proportional Serif": "Proportional Serif",
+ "Monospace Serif": "Monospace Serif",
+ "Casual": "Casual",
+ "Script": "Script",
+ "Small Caps": "Small Caps",
+ "Reset": "Reset",
+ "restore all settings to the default values": "restore all settings to the default values",
+ "Done": "Done",
+ "Caption Settings Dialog": "Caption Settings Dialog",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+ "End of dialog window.": "End of dialog window."
+});
+
+    });
+});;
+
+require(['jquery'], function($) {
+    $('#single_select5cfc36c430f5e3').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5cfc36c430f5e2').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select5cfc36c430f5e16').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5cfc36c430f5e15').submit();
+        }
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+
+        require(['jquery'], function($) {
+            $('#url_select5cfc36c430f5e17').change(function() {
+                $('#choosepluginreport').submit();
+            });
+        });
+    ;
+require(["core/notification"], function(amd) { amd.init(1041108, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","ok":"OK","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\n\nMathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    TeX: { extensions: [\"AMSmath.js\",\"AMSsymbols.js\",\"mhchem.js\",\"noErrors.js\",\"noUndefined.js\"] },\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random5cfc36c430f5e18'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5cfc36c430f5e18'); });
+})();
+//]]>
+</script>
+
+    </div>
+</footer>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"06560f3a30","applicationID":"4415946,112414867,6084072","transactionName":"YFxbZkVQW0ZRARBaDlkWbEBeHlJHUQYBHBNSSVZAQx5aQ1UQEloEQBZQXFNUTRtAChQ=","queueTime":0,"applicationTime":439,"atts":"TBtMEA1KSBkSA0YJGkpE","errorBeacon":"bam.nr-data.net","agent":""}</script>
+<div role="log" aria-live="assertive" aria-relevant="additions" class="ally-helper-hidden-accessible"></div></body></html>

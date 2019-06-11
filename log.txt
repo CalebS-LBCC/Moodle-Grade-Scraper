@@ -1,0 +1,403 @@
+PhantomJS booted from dependencies/phantomjs.exe in headless mode
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+PhantomJS booted from dependencies/phantomjs.exe in headless mode
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+Web driver ended.
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+Navigating to Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+Navigating to Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+PhantomJS booted from dependencies/phantomjs.exe headlessly
+Navigating to Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Gecko booted from dependencies/geckodriver.exe
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Gecko booted from dependencies/geckodriver.exe
+Gecko booted from dependencies/geckodriver.exe
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:/Users/cnssc/Desktop/cs 162/Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to https://elearning.linnbenton.edu/grade/report/overview/index.php?id=2721
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
+Navigating to file://C:\Users\cnssc\Desktop\cs 162\Grades.html
+Scraping begun.
+Class: ENG104 Grade: 90.64
+Class: CS162 Grade: 91.67
+Web driver ended.
+This is a test log output from test_code.py!
+Gecko booted from dependencies/geckodriver.exe
