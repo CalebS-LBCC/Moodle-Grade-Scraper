@@ -30,7 +30,7 @@ class Grade_Scraper():
         if platform.system != "windows" or platform.system != "Windows":
             ffo.add_argument("--no-sandbox") #This make Chromium reachable
             ffo.binary_location = "/usr/local/bin/chromedriver"
-        self.web_driver = webdriver.Chrome(options=ffo)
+        self.web_driver = webdriver.Chrome("/usr/local/bin/chromedriver",options=ffo)
         self.cell_name = 'grade-report-overview-303687_r'
         return self.web_driver
 
