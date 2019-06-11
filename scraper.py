@@ -4,6 +4,8 @@ Selenium-based web scraper application to take grades from Moodle.
 The browser uses Firefox to log into Moodle,
 navigate to the grade report, then return the found grades.
 Selenium is used as a backend for web scraping and web navigation.
+In a Linux distro (Xenial @ Travis CI), the scraping program will
+use an external SauceLabs server for Selenium.
 
 Caleb Shilling
 """
@@ -12,6 +14,7 @@ import platform
 import os
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+from selenium.common.exceptions import InvalidArgumentException
 from selenium.common.exceptions import NoSuchElementException
 
 
@@ -19,28 +22,33 @@ class Gradescraper():
     """Selenium-based web scraper application to take grades from Moodle."""
 
     def __init__(self, headless=True):
-        """Set if the web driver should be booted in headles mode."""
-        # This is done to allow Grade_Scraper to be initalized
-        # out of the Screen class.
+        """Set if the web driver should be booted in headless mode."""
         self.state = headless
         self.cell_name = 'grade-report-overview-303687_r'
         self.web_driver = None
         self.log_link = "log.txt"
+        self.login_link = "https://identity.linnbenton.edu"
+        self.login_confirm = "https://elearning.linnbenton.edu/login/index.php"
+        self.redirect = "https://elearning.linnbenton.edu/my/"
+        self.grade_report = "https://elearning.linnbenton.edu\
+/grade/report/overview/index.php?id=2721"
 
     def start(self):
         """Init the webdriver in visible or headless mode."""
         if platform.system() == "Windows":
-            # Use a local GeckoDriver on Windows
-            ffo = Options()
-            ffo.headless = self.state
+            # Use a local GeckoDriver (Firefox) on Windows.
+            fox_options = Options()
+            fox_options.headless = self.state
             gecko = "dependencies/geckodriver.exe"
             full_gecko = os.path.abspath(gecko)
             self.web_driver = webdriver.Firefox(
-                executable_path=full_gecko, options=ffo)
+                executable_path=full_gecko, options=fox_options)
         else:
-            # Use a remote server if testing on Travis
+            # Use a remote server if testing on Travis.
+            # Obtain remote access key and user name from enviroment veriables.
             username = os.environ["SAUCE_USERNAME"]
             access_key = os.environ["SAUCE_ACCESS_KEY"]
+            # Setup the remote Selenium instance.
             capabilities = {}
             capabilities["tunnel-identifier"] = os.environ["TRAVIS_JOB_NUMBER"]
             capabilities['version'] = "45.0"
@@ -52,7 +60,7 @@ class Gradescraper():
 
     def login(self, username, password):
         """Log into Moodle using an x number and password."""
-        self.web_driver.get("https://identity.linnbenton.edu")
+        self.web_driver.get(self.login_link)
 
         timeout = Timeout(10)
         while True:
@@ -68,31 +76,42 @@ class Gradescraper():
             if timeout.exceeded():
                 return False
 
+        # Type in username and password, then click the sign in button.
         username_field.send_keys(username)
         password_field.send_keys(password)
         self.web_driver.find_element_by_name("loginform:loginBtn").click()
 
-        self.web_driver.get("https://elearning.linnbenton.edu/login/index.php")
-        target_url = "https://elearning.linnbenton.edu/my/"
+        self.web_driver.get(self.login_confirm)
 
         timeout = Timeout(10)
-        while self.web_driver.current_url != target_url:
+        while self.web_driver.current_url != self.redirect:
             if timeout.exceeded():
                 return False
 
         return True
 
-    def get_grades(self, test=None):
+    def get_grades(self, test_url=None):
         """Navigates to the grade report and runs the grade scraper."""
-        target_url = "https://elearning.linnbenton.edu\
-/grade/report/overview/index.php?id=2721"
+        # If in test mode, navigate to the set test page.
+        try:
+            if test_url is not None:
+                self.web_driver.get(test_url)
+                self.write_log(f"Navigating to {test_url}")
+            else:
+                self.web_driver.get(self.grade_report)
+                self.write_log(f"Navigating to {self.grade_report}")
 
-        if test is not None:
-            target_url = test
+            time.sleep(5)
+            cell_test_text = f"{self.cell_name}{0}_c0"
+            self.web_driver.find_element_by_id(cell_test_text).text
+        except NoSuchElementException:
+            self.write_log("Unable to scrape.")
+            return "E"
 
-        self.web_driver.get(target_url)
-        self.write_log(f"Navigating to {target_url}")
-        time.sleep(5)
+        except InvalidArgumentException:
+            self.write_log("Unable to scrape: Bad Link.")
+            return "E"
+
         self.write_log("Scraping begun.")
         return self.scrape_grades()
 

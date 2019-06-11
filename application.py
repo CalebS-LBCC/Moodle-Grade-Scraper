@@ -98,7 +98,12 @@ class Screen(GridLayout):
     def update(self):
         """Update widgets after new data comes from the web scraper."""
         set_ = 0
-        for combo in self.grade_scraper.get_grades():
+        grades = self.grade_scraper.get_grades()
+        if grades == "E":
+            print("Error: Unable to scrape data.")
+            return
+
+        for combo in grades:
             try:
                 if combo[0] != "" and combo[1] != "":
                     self.classes[set_].text = combo[0]
