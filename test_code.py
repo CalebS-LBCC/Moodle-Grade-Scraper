@@ -13,8 +13,8 @@ def test_scrape():
     expected_result = [['HST103', ''], ['ENG104', '90.64'], ['CS162', '91.67']]
     username = os.environ["SAUCE_USERNAME"]
     path = os.path.abspath(f"https://saucelabs.com/rest/v1/storage/{username}/Grades.html")
-    grades = gs(upload=True)
-    grades.start()
+    grades = gs()
+    grades.start(upload=True)
     assert grades.get_grades(test=path) == expected_result
     grades.end_session()
 

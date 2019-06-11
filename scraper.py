@@ -18,13 +18,13 @@ import sauceclient
 class Grade_Scraper():
     """Selenium-based web scraper application to take grades from Moodle."""
 
-    def __init__(self, headless=True, upload=False):
+    def __init__(self, headless=True):
         """Set if the web driver should be booted in headles mode."""
         # This is done to allow Grade_Scraper to be initalized
         # out of the Screen class.
         self.state = headless
 
-    def start(self):
+    def start(self, upload=False):
         """Init the webdriver in visible or headless mode."""
         if platform.system() == "Windows":
             # Use a local GeckoDriver on Windows
