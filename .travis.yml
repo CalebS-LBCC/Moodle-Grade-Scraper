@@ -5,8 +5,7 @@ services:
 addons:
   sauce_connect: True
 env:
-  - SAUCE_USERNAME="calebshilling2000"
-  - SAUCE_ACCESS_KEY="b0c31ff5-6c1c-409f-87e1-bfd3afc4f128"
+  - SAUCE_USERNAME="calebshilling2000" SAUCE_ACCESS_KEY="b0c31ff5-6c1c-409f-87e1-bfd3afc4f128"
 install:
   - "pip install pytest pylint pycodestyle pydocstyle selenium kivy "
 language: python
