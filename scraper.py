@@ -27,11 +27,14 @@ class Grade_Scraper():
     def start(self, upload=False):
         """Init the webdriver in visible or headless mode."""
         if platform.system() == "Windows":
+            print("hi")
             # Use a local GeckoDriver on Windows
             ffo = Options()
             ffo.headless = self.state
             gecko = "dependencies/geckodriver.exe"
-            self.web_driver = webdriver.Firefox(gecko, options=ffo)  
+            full_gecko = os.path.abspath(gecko)
+            print(full_gecko)
+            self.web_driver = webdriver.Firefox( options=ffo)  
             return self.web_driver
         else:
             # Use a remote server if testing on Travis
@@ -81,13 +84,16 @@ class Grade_Scraper():
 
         if test is not None:
             target_url = test
+        
         self.web_driver.get(target_url)
         self.write_log(f"Navigating to {target_url}")
+        time.sleep(2)
         self.write_log("Scraping begun.")
         return self.scrape_grades()
 
     def scrape_grades(self, cycle=0):
         """Return a class + its grade. Recursive."""
+        
         cell_1_text = f"{self.cell_name}{cycle}_c0"
         cell_2_text = f"{self.cell_name}{cycle}_c1"
         cell_1 = self.web_driver.find_element_by_id(cell_1_text).text

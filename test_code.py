@@ -11,10 +11,9 @@ def test_scrape():
     # This tests the entire scraping function aside from logging in.
     # This is done using Grades.html, a local HTML page from moodle.
     expected_result = [['HST103', ''], ['ENG104', '90.64'], ['CS162', '91.67']]
-    username = os.environ["SAUCE_USERNAME"]
-    path = "https://raw.githubusercontent.com/shilling-caleb-9806/Moodle-Grade-Scraper/master/Grades.html"
+    path = "http://htmlpreview.github.io/?https://github.com/shilling-caleb-9806/Moodle-Grade-Scraper/blob/master/Grades.html"
     grades = gs()
-    grades.start(upload=True)
+    grades.start()
     assert grades.get_grades(test=path) == expected_result
     grades.end_session()
 
