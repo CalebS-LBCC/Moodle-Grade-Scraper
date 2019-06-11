@@ -40,6 +40,8 @@ class Grade_Scraper():
             access_key = os.environ["SAUCE_ACCESS_KEY"]
             capabilities = {}
             capabilities["tunnel-identifier"] = os.environ["TRAVIS_JOB_NUMBER"]
+            capabilities['version'] = "45.0"         
+            caps['browserName'] = "firefox"
             hub_url = "%s:%s@localhost:4445" % (username, access_key)
             self.web_driver = webdriver.Remote(desired_capabilities=capabilities, command_executor="http://%s/wd/hub" % hub_url)
 
