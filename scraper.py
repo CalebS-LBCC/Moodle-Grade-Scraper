@@ -38,8 +38,10 @@ class Grade_Scraper():
             username = os.environ["SAUCE_USERNAME"]
             access_key = os.environ["SAUCE_ACCESS_KEY"]
             access_key = os.environ["SAUCE_ACCESS_KEY"]
+            capabilities = {}
+            capabilities["tunnel-identifier"] = os.environ["TRAVIS_JOB_NUMBER"]
             hub_url = "%s:%s@localhost:4445" % (username, access_key)
-            self.web_driver = webdriver.Remote(command_executor="http://%s/wd/hub" % hub_url)
+            self.web_driver = webdriver.Remote(desired_capabilities=capabilities, command_executor="http://%s/wd/hub" % hub_url)
 
     def login(self, un, ps):
         """Log into Moodle using an x number and password."""
