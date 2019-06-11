@@ -1,7 +1,9 @@
 ---
 dist: xenial
-addons: 
-  chrome: stable
+before_script:
+- wget http://chromedriver.storage.googleapis.com/2.24/chromedriver_linux64.zip
+- unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python2.7.12/bin/
+- export CHROME_BIN=chromium-browser
 install:
   - "pip install pytest pylint pycodestyle pydocstyle selenium kivy"
 language: python
