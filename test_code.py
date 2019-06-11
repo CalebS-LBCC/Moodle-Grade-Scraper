@@ -11,10 +11,11 @@ def test_scrape():
     # This tests the entire scraping function aside from logging in.
     # This is done using Grades.html, a local HTML page from moodle.
     expected_result = [['HST103', ''], ['ENG104', '90.64'], ['CS162', '91.67']]
-    path = os.path.abspath("Grades.html")
-    grades = gs()
+    username = os.environ["SAUCE_USERNAME"]
+    path = os.path.abspath(f"https://saucelabs.com/rest/v1/storage/{username}/Grades.html")
+    grades = gs(upload=True)
     grades.start()
-    assert grades.get_grades(test=f"file://{path}") == expected_result
+    assert grades.get_grades(test=path) == expected_result
     grades.end_session()
 
 CONTENT = ["moodle_username=X000000\n\

@@ -18,7 +18,7 @@ import sauceclient
 class Grade_Scraper():
     """Selenium-based web scraper application to take grades from Moodle."""
 
-    def __init__(self, headless=True):
+    def __init__(self, headless=True, upload=False):
         """Set if the web driver should be booted in headles mode."""
         # This is done to allow Grade_Scraper to be initalized
         # out of the Screen class.
@@ -45,7 +45,8 @@ class Grade_Scraper():
             hub_url = "%s:%s@localhost:4445" % (username, access_key)
             self.web_driver = webdriver.Remote(desired_capabilities=capabilities, command_executor="http://%s/wd/hub" % hub_url)
             self.client = sauceclient.SauceClient(username, access_key)
-            self.client.storage.upload_file("Grades.html")
+            if upload:
+                self.client.storage.upload_file("Grades.html")
 
     def login(self, un, ps):
         """Log into Moodle using an x number and password."""
