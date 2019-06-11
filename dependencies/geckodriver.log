@@ -1,0 +1,976 @@
+1559679663126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.hpSKao8JovkW"
+1559679663614	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559679663614	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559679663614	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559679664970	Marionette	INFO	Listening on port 62090
+1559679665246	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13216, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/c[Parent 13216, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14271559679677898	Marionette	INFO	Stopped listening on port 62090
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 9
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559679686135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.fBNmmXkj3Hjl"
+1559679686652	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559679686652	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559679686653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559679688119	Marionette	INFO	Listening on port 62157
+1559679688252	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7928, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7928, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15060, Ch[Parent 7928, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10504, Chrome_ChildThread] WARNING:1559679807644	Marionette	INFO	Stopped listening on port 62157
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 9
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559679816359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.uCBp7TMcPNdk"
+1559679816900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559679816900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559679816900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559679818414	Marionette	INFO	Listening on port 62373
+1559679818483	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13324, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17280,[Child 8700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559679822043	Marionette	INFO	Stopped listening on port 62373
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 99
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559679885939	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.Kcp1bMrX9GsW"
+1559679886390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559679886390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559679886390	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559679887775	Marionette	INFO	Listening on port 62512
+1559679888056	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559669312437%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 784, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 784, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/commo[Child 17288, Chrome_Chin/ipc_chldThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+annel_win.cc, lin[Child 1728e 341
+8, Chrome[Child 8224, Chrom_Che_CildThread] hWiARNING: pipled Thread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipce/rrochromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 784, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559683161953	Marionette	INFO	Stopped listening on port 62512
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680168071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.rIDxQ2O5Fazd"
+1559680168577	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680168578	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680168578	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680170036	Marionette	INFO	Listening on port 63047
+1559680170195	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 17308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_155803[Parent 15624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559680177638	Marionette	INFO	Stopped listening on port 63047
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680216107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.cFVrW4KTcV19"
+1559680216632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680216632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680216633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680217916	Marionette	INFO	Listening on port 63151
+1559680218240	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 1512, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 1512, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_[1C5h5i8l035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+d 17744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 1512, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559680245665	Marionette	INFO	Stopped listening on port 63151
+[GPU 17
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680296562	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.oQqYfzrER8AI"
+1559680297052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680297052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680297052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680298359	Marionette	INFO	Listening on port 63298
+1559680298679	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559669312437%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 7968, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17[Parent 7968, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1612, Chrome_Chil[Parent 7968, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559680351960	Marionette	INFO	Stopped listening on port 63298
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 9796, Chrome
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680356742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.m3HQdMSkOiDo"
+1559680357191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680357191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680357191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680358631	Marionette	INFO	Listening on port 63425
+1559680358866	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18960, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18960, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18960, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18540, Chrome_Chil1559680369496	Marionette	INFO	Stopped listening on port 63425
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680386113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.NQUlHr80XRub"
+1559680386568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680386568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680386568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680388047	Marionette	INFO	Listening on port 63504
+1559680388229	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19244, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 19244, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium[Parent 19244, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17668, Chrome_Chi1559680391713	Marionette	INFO	Stopped listening on port 63504
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 11196, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680457486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.d4dyj22qKQUf"
+1559680457925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680457925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680457925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680459111	Marionette	INFO	Listening on port 63655
+1559680459601	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19052, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 19052, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 19052, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19428, Chrome_ChildThre1559680535346	Marionette	INFO	Stopped listening on port 63655
+[GPU 190
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680552184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.TkwcENLcW8RF"
+1559680552694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680552695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680552695	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680554165	Marionette	INFO	Listening on port 63873
+1559680554306	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16408, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 157[Child 16812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16812, Chrome_ChildThre1559680563637	Marionette	INFO	Stopped listening on port 63873
+[GPU 194
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680575411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.YnYizMpLmM7e"
+1559680575912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680575913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680575913	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680577335	Marionette	INFO	Listening on port 63957
+1559680577532	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18708, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15581559680597928	Marionette	INFO	Stopped listening on port 63957
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680611699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.K5gHVjbB9ZTN"
+1559680612190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680612190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680612190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680613526	Marionette	INFO	Listening on port 64045
+1559680613813	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17756, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17756, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558[Child 19068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17756, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_155803521559680627949	Marionette	INFO	Stopped listening on port 64045
+[GPU 93
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559680634049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.n4R2Xrhr5mF7"
+1559680634560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559680634560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559680634560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559680635878	Marionette	INFO	Listening on port 64121
+1559680636169	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559669312437%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 14520, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 14520, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 14520, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559683162993	Marionette	INFO	Stopped listening on port 64121
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+aching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 18556, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_chan[Parent 18556, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559681067181	Marionette	INFO	Stopped listening on port 64237
+[GPU 17112, Chrome_ChildThread] 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: c[Parent 19432, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 19432, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 19432, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3880, Chrome_ChildThre[Child 19968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1559683163860	Marionette	INFO	Stopped listening on port 64422
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ome/common/ipc_channel_win.cc, line 341
+1559681095740	Marionette	INFO	Stopped listening on port 65007
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559681102294	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.aYQVXygYdo8x"
+1559681102744	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559681102745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559681102745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559681103999	Marionette	INFO	Listening on port 65085
+1559681104412	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19452, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19152, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249[Child 16272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src[Parent 19452, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1701559681113759	Marionette	INFO	Stopped listening on port 65085
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559681119132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.RCnJFL9P76XN"
+1559681119581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559681119582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559681119582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559681120837	Marionette	INFO	Listening on port 65161
+1559681121256	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.linnbenton.edu/lib/requirejs.[Parent 292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/commonphp/155924/7ipc_channel_5win.cc6, line 3421/
+core/first.js, line 193: NS_ERROR_NOT_INITIALIZED: 
+[Parent 292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12776, Chro1559681129822	Marionette	INFO	Stopped listening on port 65161
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 19224, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559681135075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.L8iZX2RK44PO"
+1559681135521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559681135522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559681135522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559681136890	Marionette	INFO	Listening on port 65236
+1559681137198	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.guru99.com/handling-dynamic-selenium-webdriver.html, line 146: TypeError: $ is not a function
+JavaScript error: https://www.guru99.com/handling-dynamic-selenium-webdriver.html line 90 > scriptElement, line 581: TypeError: config.contentPlayList[config.currContentIndex] is undefined
+JavaScript error: https://www.guru99.com/handling-dynamic-selenium-webdriver.html line 90 > scriptElement, line 581: TypeError: config.contentPlayList[config.currContentIndex] is undefined
+[Parent 6132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: https://contextual.media.net/fcmdynet.js?&cid=8CUQBB2U5&cpcd=7xRa5ccNXLLzdohX57nd7w%3D%3D&crid=441289839&size=641x481&cc=US&https=1&vif=0&requrl=https%3A%2F%2Fwww.guru99.com%2Fhandling-dynamic-selenium-webdriver.html&kwrf=https%3A%2F%2Fwww.google.com&nse=3&vi=1559681263943846041&lw=1&ugd=4&insl=1, line 237: TypeError: _mNDetails._mNVI is undefined
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://ae.nflximg.net/containers/prod/GLOBAL_OITNB_S6_GENERAL_300x250_H5_RM_POST_traffic_source.zip_7db67b1e-4820-4598-94f5-edb9b8d4be4a/4.10/build.bundle.js, line 1: Error: Set a static height and width on the target element <div class="copy" style="left: 0px; right: auto; width: 102.44px; height: 25px;"></div> before using textFit!
+JavaScript error: https://ae.nflximg.net/containers/prod/GLOBAL_OITNB_S6_GENERAL_300x250_H5_RM_POST_traffic_source.zip_7db67b1e-4820-4598-94f5-edb9b8d4be4a/4.10/build.bundle.js, line 1: Error: Set a static height and width on the target element <div class="copy" style="left: 0px; right: auto; width: 102.44px; height: 25px;"></div> before using textFit!
+JavaScript error: https://ae.nflximg.net/containers/prod/GLOBAL_OITNB_S6_GENERAL_300x250_H5_RM_POST_traffic_source.zip_7db67b1e-4820-4598-94f5-edb9b8d4be4a/4.10/build.bundle.js, line 1: Error: Set a static height and width on the target element <div class="copy en" style="left: 0px; right: auto; width: 102.44px; height: 25px;">WATCH NOW</div> before using textFit!
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/17482085556215982980/AdHelper.min.js, line 1: TypeError: this.dispatchEvent is not a function
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559669312437%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript error: https://s0.2mdn.net/1384245/1554485967924/19D30056_Savings_Hula_Flo_300x250/main.js, line 20: TypeError: $(...) is null
+[GFX1-]: [D2D1.1] 4CreateBitmap failure Size(22800,500) Code: 0x80070057 format 1
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/11492606716807142745/AdHelper.min.js, line 1: TypeError: this.dispatchEvent is not a function
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 6132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Child 20416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20416, Chrome_ChildThread] WARNING: pipe erro[Chir: 109: file z:/task_ld 8361558035249/build4, Chrome_ChildThread] WARNING: pipe e/src/ipc/chromium/srcrror: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Child 8364, Chrome_ChildThread] WARNING: pipe er[Child 20448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromi[Parent 6132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19356, 1559682396213	Marionette	INFO	Stopped listening on port 65236
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 19
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11964, Chrome_ChildThread] WARNING: pipe error[Parent 17132, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20776,1559681915413	Marionette	INFO	Stopped listening on port 64105
+[GPU 20708, Chro
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+me_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559682424460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.nuSsrcYUWy4M"
+1559682425025	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559682425025	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559682425025	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559682426574	Marionette	INFO	Listening on port 65162
+1559682426592	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 43: TypeError: window is null
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Child 9480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ip[Child 19324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child [Parent 12588, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559683160739	Marionette	INFO	Stopped listening on port 65162
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 16416, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build[Parent 20956, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559683159817	Marionette	INFO	Stopped listening on port 49184
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1696
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+6183	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 20868, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 20868, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 20868, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chrom[Child 23136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23136[Parent 23164, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 23164, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21232, Chrome_Chi1559683263860	Marionette	INFO	Stopped listening on port 50119
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 2
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559683361458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.DCTAgWgkXJL3"
+1559683362160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559683362160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559683362161	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559683363594	Marionette	INFO	Listening on port 50488
+1559683363671	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559669312437%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 17920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559684764132	Marionette	INFO	Stopped listening on port 50488
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 11356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12508, Chrome_ChildThread] WARNING: pipe e[Child 21704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22888, Chrome_ChildThread] WARNING: pip1559684763021	Marionette	INFO	Stopped listening on port 50575
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 23264, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559669312437%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 18436, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18436, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18436, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559684760387	Marionette	INFO	Stopped listening on port 52990
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 20508, Chrome_ChildThread] WARNING: pipe error: 109: fil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11576, Chrome_ChildThread] WARNI[Parent 6924, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18660, Chrome_ChildThread]1559684758025	Marionette	INFO	Stopped listening on port 53082
+[GPU 11220, Chrome
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559688244864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.ZHX7CZbvj3LH"
+1559688245314	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559688245315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559688245315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559688246622	Marionette	INFO	Listening on port 58333
+1559688246977	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559688304861	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.2K55abamdGHB"
+1559688305327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559688305328	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559688305328	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559688306767	Marionette	INFO	Listening on port 58452
+1559688306977	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9672, Chrome_ChildThread] WARNING[Parent 16612, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15224, Chrome_ChildThread] WARNING: pipe error: 1091559688355457	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading1559688355497	Marionette	INFO	Stopped listening on port 58452
+[GPU 1660, Chrome_ChildThread] WARNING: 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+xtension permission: resource://pdf.js/
+1559688355458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559688357003	Marionette	INFO	Listening on port 58554
+1559688357098	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9556, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15236, Chro[Parent 9556, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build1559688442051	Marionette	INFO	Stopped listening on port 58554
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559688448065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.YxrcqPQ87KR3"
+1559688448547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559688448547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559688448547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559688450068	Marionette	INFO	Listening on port 58668
+1559688450186	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20760, Chrome_ChildThread] WARNING: pipe error1559688459545	Marionette	INFO	Stopped listening on port 58668
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559688487238	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cnssc\\AppData\\Local\\Temp\\rust_mozprofile.VCgVs504GAik"
+1559688487691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559688487691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559688487691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559688488918	Marionette	INFO	Listening on port 58743
+1559688489358	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 23172, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17168, Chrome_ChildThr[Parent 23172, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559688500725	Marionette	INFO	Stopped listening on port 58743
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
