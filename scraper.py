@@ -12,7 +12,6 @@ from selenium.webdriver.firefox.options import Options
 import time
 import platform
 import os
-import sauceclient
 
 
 class Grade_Scraper():
@@ -44,10 +43,6 @@ class Grade_Scraper():
             capabilities['browserName'] = "firefox"
             hub_url = "%s:%s@localhost:4445" % (username, access_key)
             self.web_driver = webdriver.Remote(desired_capabilities=capabilities, command_executor="http://%s/wd/hub" % hub_url)
-            self.client = sauceclient.SauceClient(username, access_key)
-            if upload:
-                link = os.path.abspath("Grades.html")
-                self.client.storage.upload_file(link)
 
     def login(self, un, ps):
         """Log into Moodle using an x number and password."""
