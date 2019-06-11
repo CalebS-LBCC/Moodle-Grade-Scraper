@@ -1,5 +1,7 @@
 ---
 dist: xenial
+services:
+  - xvfb
 addons:
   firefox: "67.0.1"
 before_install:
@@ -17,6 +19,7 @@ script:
   - pylint application.py
   - pycodestyle application.py
   - pydocstyle application.py
+  - xvfb-run --server-args="-screen 0 1024x768x24" make test
 notifications:
   email:
     recipients:
