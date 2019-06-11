@@ -8,10 +8,9 @@ Selenium is used as a backend for web scraping and web navigation.
 Caleb Shilling
 """
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
 import time
 import platform
-import chromedriver_binary
 
 
 class Grade_Scraper():
@@ -27,7 +26,7 @@ class Grade_Scraper():
         """Init the webdriver in visible or headless mode."""
         ffo = Options()
         ffo.headless = self.state
-        self.web_driver = webdriver.Chrome(options=ffo)
+        self.web_driver = webdriver.Firefox(options=ffo)
         self.cell_name = 'grade-report-overview-303687_r'
         return self.web_driver
 
