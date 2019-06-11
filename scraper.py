@@ -28,13 +28,14 @@ class Grade_Scraper():
         ffo.headless = self.state
 
         if platform.system() == "Windows":
-            gecko_link = "dependencies/geckodriver.exe"  
+            gecko_link = "dependencies/geckodriver.exe"
+            self.web_driver = \
+            webdriver.Firefox(executable_path=gecko_link, options=ffo)        
         else:
-            gecko_link = "dependencies/geckodriver"
+            self.web_driver = webdriver.Firefox(options=ffo)
+            self.write_log(f"Gecko booted from {gecko_link}")
 
-        self.web_driver = \
-            webdriver.Firefox(executable_path=gecko_link, options=ffo)
-        self.write_log(f"Gecko booted from {gecko_link}")
+        
 
         self.cell_name = 'grade-report-overview-303687_r'
 
