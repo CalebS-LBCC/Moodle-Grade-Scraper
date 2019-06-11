@@ -12,9 +12,10 @@ import platform
 import os
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+from selenium.common.exceptions import NoSuchElementException
 
 
-class Grade_scraper():
+class Gradescraper():
     """Selenium-based web scraper application to take grades from Moodle."""
 
     def __init__(self, headless=True):
@@ -58,7 +59,7 @@ class Grade_scraper():
                 username_field = self.web_driver.find_element_by_id("j_username")
                 password_field = self.web_driver.find_element_by_id("j_password")
                 break
-            except Exception:
+            except NoSuchElementException:
                 pass
 
             if timeout.exceeded():

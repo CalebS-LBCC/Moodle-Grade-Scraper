@@ -1,4 +1,4 @@
-from scraper import Grade_scraper as gs
+from scraper import Gradescraper as gs
 from scraper import Timeout
 import time
 from application import Screen

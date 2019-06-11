@@ -131,7 +131,7 @@ class KivyApp(App):
 
     def __init__(self):
         """Init classes and variables."""
-        super(KivyApp,self).__init__()
+        super(KivyApp, self).__init__()
         self.grade_scraper = Gradescraper()
         self.screen = Screen(gr_scraper=self.grade_scraper)
 
