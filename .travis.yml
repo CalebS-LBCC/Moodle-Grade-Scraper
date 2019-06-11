@@ -1,39 +1,17 @@
 ---
 dist: xenial
-sudo: required
-addons: # get google-chrome-stable
-   apt:
-    sources:
-      - google-chrome
-    packages:
-      - google-chrome-stable
-install: # Install ChromeDriver (64bits; replace 64 with 32 for 32bits).
-  - wget -N http://chromedriver.storage.googleapis.com/2.30/chromedriver_linux64.zip -P ~/
-  - unzip ~/chromedriver_linux64.zip -d ~/
-  - rm ~/chromedriver_linux64.zip
-  - sudo mv -f ~/chromedriver /usr/local/share/
-  - sudo chmod +x /usr/local/share/chromedriver
-  - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
-  - "pip install pytest pylint pycodestyle pydocstyle selenium kivy"
-  - sudo apt-get install -y libglib2.0-0=2.50.3-2
-  - sudo apt-get install -y libnss3=2:3.26.2-1.1+deb9u1
-  - sudo apt-get install -y libgconf-2-4=3.2.6-4+b1
-  - sudo apt-get install -y libfontconfig1=2.11.0-6.7+b1
+install:
+  - "pip install pytest pylint pycodestyle pydocstyle selenium kivy chromedriver-binary"
 language: python
 python:
   - "3.7"
 script:
-  - pytest test_code.py
-  - pylint application.py, scraper.py
-  - pycodestyle application.py, scraper.py
-  - pydocstyle application.py, scraper.py
-  - whereis google-chrome-stable
-  - whereis chromedriver
+  - pylint part_1.py
+  - pycodestyle part_1.py
+  - pydocstyle part_1.py
 notifications:
   email:
     recipients:
       - user@example.com
     on_success: always
 on_failure: always
-
-

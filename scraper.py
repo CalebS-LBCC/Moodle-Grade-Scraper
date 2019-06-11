@@ -11,7 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 import platform
-
+import chromedriver_binary
 
 
 class Grade_Scraper():
@@ -27,10 +27,7 @@ class Grade_Scraper():
         """Init the webdriver in visible or headless mode."""
         ffo = Options()
         ffo.headless = self.state
-        if platform.system != "windows" or platform.system != "Windows":
-            ffo.add_argument("--no-sandbox") #This make Chromium reachable
-            ffo.binary_location = "/usr/local/bin/chromedriver"
-        self.web_driver = webdriver.Chrome("/usr/local/bin/chromedriver",options=ffo)
+        self.web_driver = webdriver.Chrome(options=ffo)
         self.cell_name = 'grade-report-overview-303687_r'
         return self.web_driver
 
