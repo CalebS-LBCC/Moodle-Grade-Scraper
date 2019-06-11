@@ -27,14 +27,12 @@ class Grade_Scraper():
     def start(self, upload=False):
         """Init the webdriver in visible or headless mode."""
         if platform.system() == "Windows":
-            print("hi")
             # Use a local GeckoDriver on Windows
             ffo = Options()
             ffo.headless = self.state
             gecko = "dependencies/geckodriver.exe"
             full_gecko = os.path.abspath(gecko)
-            print(full_gecko)
-            self.web_driver = webdriver.Firefox( options=ffo)  
+            self.web_driver = webdriver.Firefox(executable_path=full_gecko, options=ffo)
             return self.web_driver
         else:
             # Use a remote server if testing on Travis
@@ -42,10 +40,12 @@ class Grade_Scraper():
             access_key = os.environ["SAUCE_ACCESS_KEY"]
             capabilities = {}
             capabilities["tunnel-identifier"] = os.environ["TRAVIS_JOB_NUMBER"]
-            capabilities['version'] = "45.0"         
+            capabilities['version'] = "45.0"
             capabilities['browserName'] = "firefox"
             hub_url = "%s:%s@localhost:4445" % (username, access_key)
-            self.web_driver = webdriver.Remote(desired_capabilities=capabilities, command_executor="http://%s/wd/hub" % hub_url)
+            self.web_driver = webdriver.Remote(
+                desired_capabilities=capabilities,
+                command_executor="http://%s/wd/hub" % hub_url)
 
     def login(self, un, ps):
         """Log into Moodle using an x number and password."""
@@ -60,7 +60,7 @@ class Grade_Scraper():
             except Exception:
                 pass
 
-            if timeout.exceeded():   
+            if timeout.exceeded():
                 return False
 
         username.send_keys(un)
@@ -72,7 +72,7 @@ class Grade_Scraper():
 
         timeout = Timeout(10)
         while self.web_driver.current_url != target_url:
-            if timeout.exceeded():   
+            if timeout.exceeded():
                 return False
 
         return True
@@ -84,7 +84,7 @@ class Grade_Scraper():
 
         if test is not None:
             target_url = test
-        
+
         self.web_driver.get(target_url)
         self.write_log(f"Navigating to {target_url}")
         time.sleep(2)
@@ -93,7 +93,6 @@ class Grade_Scraper():
 
     def scrape_grades(self, cycle=0):
         """Return a class + its grade. Recursive."""
-        
         cell_1_text = f"{self.cell_name}{cycle}_c0"
         cell_2_text = f"{self.cell_name}{cycle}_c1"
         cell_1 = self.web_driver.find_element_by_id(cell_1_text).text
@@ -133,12 +132,16 @@ class Grade_Scraper():
         """Print to a log file."""
         with open("log.txt", "a") as log_file:
             log_file.writelines(log_output + "\n")
-        
+
+
 class Timeout():
+    """Instantiates a timeout timer."""
 
     def __init__(self, length):
+        """Init a timeout timer which can be checked periodically."""
         self.length = length
         self.start_time = int(time.time())
 
     def exceeded(self):
+        """Check if the timeout has exceeded its length."""
         return int(time.time()) - self.start_time >= self.length

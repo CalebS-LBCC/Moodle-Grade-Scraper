@@ -33,7 +33,7 @@ class Screen(GridLayout):
 
         if not test_mode:
             self.set_background()
-            
+
         self.gs = scraper
         self.classes = [None, None, None, None, None]
         self.classes[0] = Label(text="No Class", x=0, y=100)
@@ -70,14 +70,14 @@ class Screen(GridLayout):
             img_src = self.pull_data()["app_background"]
         else:
             img_src = self.pull_data(file_=config)["app_background"]
-        
-        try: 
+
+        try:
             with open(img_src, "r") as _:
-                pass       
+                pass
             back = Image(source=img_src, width=200, height=300, y=-50)
             self.add_widget(back)
             print("Background added successfully.")
-        except:
+        except FileNotFoundError:
             print("Background link incorrect. Not using a background.")
 
     def worker(self):
