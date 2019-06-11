@@ -27,6 +27,8 @@ class Grade_Scraper():
         """Init the webdriver in visible or headless mode."""
         ffo = Options()
         ffo.headless = self.state
+        if platform.system != "windows" or platform.system != "Windows":
+            ffo.binary_location = "/usr/bin/chromium-browser"
         self.web_driver = webdriver.Chrome(options=ffo)
         self.cell_name = 'grade-report-overview-303687_r'
         return self.web_driver
