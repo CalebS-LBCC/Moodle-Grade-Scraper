@@ -1,7 +1,8 @@
-from scraper import Grade_Scraper as gs
+from scraper import Grade_scraper as gs
 from scraper import Timeout
 import time
 from application import Screen
+from application import pull_data
 import os
 import pytest
 import configparser
@@ -39,10 +40,8 @@ def test_get_data(tmpdir):
     d2 = tmpdir.mkdir("dir2").join("test_config2.cfg")
     d2.write(CONTENT[1])
 
-    screen = Screen(test_mode=True)
-
-    assert screen.pull_data(file_=d) == TARGETS[0]
-    assert screen.pull_data(file_=d2) == TARGETS[1]
+    assert pull_data(file_=d) == TARGETS[0]
+    assert pull_data(file_=d2) == TARGETS[1]
 
 bad_content = "app_background=backgrund.m"
 bad_out = "Background link incorrect. Not using a background.\n"

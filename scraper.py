@@ -7,14 +7,14 @@ Selenium is used as a backend for web scraping and web navigation.
 
 Caleb Shilling
 """
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
 import time
 import platform
 import os
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
 
-class Grade_Scraper():
+class Grade_scraper():
     """Selenium-based web scraper application to take grades from Moodle."""
 
     def __init__(self, headless=True):
@@ -23,8 +23,10 @@ class Grade_Scraper():
         # out of the Screen class.
         self.state = headless
         self.cell_name = 'grade-report-overview-303687_r'
+        self.web_driver = None
+        self.log_link = "log.txt"
 
-    def start(self, upload=False):
+    def start(self):
         """Init the webdriver in visible or headless mode."""
         if platform.system() == "Windows":
             # Use a local GeckoDriver on Windows
@@ -33,7 +35,6 @@ class Grade_Scraper():
             gecko = "dependencies/geckodriver.exe"
             full_gecko = os.path.abspath(gecko)
             self.web_driver = webdriver.Firefox(executable_path=full_gecko, options=ffo)
-            return self.web_driver
         else:
             # Use a remote server if testing on Travis
             username = os.environ["SAUCE_USERNAME"]
@@ -47,15 +48,15 @@ class Grade_Scraper():
                 desired_capabilities=capabilities,
                 command_executor="http://%s/wd/hub" % hub_url)
 
-    def login(self, un, ps):
+    def login(self, username, password):
         """Log into Moodle using an x number and password."""
         self.web_driver.get("https://identity.linnbenton.edu")
 
         timeout = Timeout(10)
         while True:
             try:
-                username = self.web_driver.find_element_by_id("j_username")
-                password = self.web_driver.find_element_by_id("j_password")
+                username_field = self.web_driver.find_element_by_id("j_username")
+                password_field = self.web_driver.find_element_by_id("j_password")
                 break
             except Exception:
                 pass
@@ -63,8 +64,8 @@ class Grade_Scraper():
             if timeout.exceeded():
                 return False
 
-        username.send_keys(un)
-        password.send_keys(ps)
+        username_field.send_keys(username)
+        password_field.send_keys(password)
         self.web_driver.find_element_by_name("loginform:loginBtn").click()
 
         self.web_driver.get("https://elearning.linnbenton.edu/login/index.php")
@@ -87,7 +88,7 @@ class Grade_Scraper():
 
         self.web_driver.get(target_url)
         self.write_log(f"Navigating to {target_url}")
-        time.sleep(2)
+        time.sleep(5)
         self.write_log("Scraping begun.")
         return self.scrape_grades()
 
@@ -130,7 +131,7 @@ class Grade_Scraper():
 
     def write_log(self, log_output):
         """Print to a log file."""
-        with open("log.txt", "a") as log_file:
+        with open(self.log_link, "a") as log_file:
             log_file.writelines(log_output + "\n")
 
 
@@ -145,3 +146,7 @@ class Timeout():
     def exceeded(self):
         """Check if the timeout has exceeded its length."""
         return int(time.time()) - self.start_time >= self.length
+
+    def time_left(self):
+        """Return the time left in the timeout."""
+        return 10 - (int(time.time()) - self.start_time)

@@ -17,7 +17,7 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.uix.image import Image
 from kivy.uix.label import Label
 
-from scraper import Grade_Scraper
+from scraper import Grade_scraper
 
 Config.set('graphics', 'resizable', False)
 Config.set('graphics', 'width', '200')
@@ -27,7 +27,7 @@ Config.set('graphics', 'height', '200')
 class Screen(GridLayout):
     """Main class that manages Kivy UI and scraping thread."""
 
-    def __init__(self, gr_scraper=Grade_Scraper(), test_mode=False, **kwargs):
+    def __init__(self, gr_scraper=Grade_scraper(), test_mode=False, **kwargs):
         """Init the code scraping thread and make all UI wigets."""
         super(Screen, self).__init__(**kwargs)
 
@@ -67,9 +67,9 @@ class Screen(GridLayout):
     def set_background(self, config=None):
         """Set the application background."""
         if config is None:
-            img_src = self.pull_data()["app_background"]
+            img_src = pull_data()["app_background"]
         else:
-            img_src = self.pull_data(file_=config)["app_background"]
+            img_src = pull_data(file_=config)["app_background"]
 
         try:
             with open(img_src, "r") as _:
@@ -108,39 +108,42 @@ class Screen(GridLayout):
                 self.classes[set_].text = ""
                 self.grades[set_].text = ""
 
-    def pull_data(self, file_=None):
-        """Pull all entires from a configuration file."""
-        values = {}
-        if file_ is None:
-            with open("config.cfg", "r") as config:
-                for line in config.read().splitlines():
-                    data = line.split("=")
-                    config_line = {data[0]: data[1]}
-                    values.update(config_line)
-        else:
-            for line in file_.read().splitlines():
+def pull_data(file_=None):
+    """Pull all entires from a configuration file."""
+    values = {}
+    if file_ is None:
+        with open("config.cfg", "r") as config:
+            for line in config.read().splitlines():
                 data = line.split("=")
                 config_line = {data[0]: data[1]}
                 values.update(config_line)
+    else:
+        for line in file_.read().splitlines():
+            data = line.split("=")
+            config_line = {data[0]: data[1]}
+            values.update(config_line)
 
-        return values
+    return values    
 
 
 class KivyApp(App):
     """Build a Kivy application framework."""
 
+    def __init__(self):
+        """Init classes and variables."""
+        self.grade_scraper = Grade_scraper()
+        self.screen = Screen(gr_scraper=self.grade_scraper)
+
     def build(self):
         """Create the grade scraper and Screen objects."""
-        self.scraper = Grade_Scraper()
-        self.screen = Screen(gr_scraper=self.scraper)
         return self.screen
 
     def close(self):
         """Close the grade scraper object."""
-        self.scraper.end_session()
+        self.grade_scraper.end_session()
 
 
 if __name__ == '__main__':
-    app = KivyApp()
-    app.run()
-    app.close()
+    APP = KivyApp()
+    APP.run()
+    APP.close()
