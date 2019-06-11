@@ -8,9 +8,10 @@ Selenium is used as a backend for web scraping and web navigation.
 Caleb Shilling
 """
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 import time
 import platform
+
 
 
 class Grade_Scraper():
@@ -26,19 +27,8 @@ class Grade_Scraper():
         """Init the webdriver in visible or headless mode."""
         ffo = Options()
         ffo.headless = self.state
-
-        if platform.system() == "Windows":
-            gecko_link = "dependencies/geckodriver.exe"
-            self.web_driver = \
-            webdriver.Firefox(executable_path=gecko_link, options=ffo)        
-        else:
-            self.web_driver = webdriver.Firefox(options=ffo)
-            self.write_log(f"Gecko booted from {gecko_link}")
-
-        
-
+        self.web_driver = webdriver.Chrome(options=ffo)
         self.cell_name = 'grade-report-overview-303687_r'
-
         return self.web_driver
 
     def login(self, un, ps):
