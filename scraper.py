@@ -46,7 +46,8 @@ class Grade_Scraper():
             self.web_driver = webdriver.Remote(desired_capabilities=capabilities, command_executor="http://%s/wd/hub" % hub_url)
             self.client = sauceclient.SauceClient(username, access_key)
             if upload:
-                self.client.storage.upload_file("Grades.html")
+                link = os.path.abspath("Grades.html")
+                self.client.storage.upload_file(link)
 
     def login(self, un, ps):
         """Log into Moodle using an x number and password."""
