@@ -93,7 +93,7 @@ class Screen(GridLayout):
                 self.update()
                 time.sleep(600)
         if not logged_in:
-            self.grade_scraper.write_log("Did not log in successfully to Moodle.")
+            self.grade_scraper.write_log("Moodle login unsuccessful.")
 
     def update(self):
         """Update widgets after new data comes from the web scraper."""
@@ -107,6 +107,7 @@ class Screen(GridLayout):
             except IndexError:
                 self.classes[set_].text = ""
                 self.grades[set_].text = ""
+
 
 def pull_data(file_=None):
     """Pull all entires from a configuration file."""

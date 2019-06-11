@@ -35,7 +35,8 @@ class Gradescraper():
             ffo.headless = self.state
             gecko = "dependencies/geckodriver.exe"
             full_gecko = os.path.abspath(gecko)
-            self.web_driver = webdriver.Firefox(executable_path=full_gecko, options=ffo)
+            self.web_driver = webdriver.Firefox(
+                executable_path=full_gecko, options=ffo)
         else:
             # Use a remote server if testing on Travis
             username = os.environ["SAUCE_USERNAME"]
@@ -56,8 +57,10 @@ class Gradescraper():
         timeout = Timeout(10)
         while True:
             try:
-                username_field = self.web_driver.find_element_by_id("j_username")
-                password_field = self.web_driver.find_element_by_id("j_password")
+                username_field = \
+                    self.web_driver.find_element_by_id("j_username")
+                password_field = \
+                    self.web_driver.find_element_by_id("j_password")
                 break
             except NoSuchElementException:
                 pass
