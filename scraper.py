@@ -22,6 +22,7 @@ class Grade_Scraper():
         # This is done to allow Grade_Scraper to be initalized
         # out of the Screen class.
         self.state = headless
+        self.cell_name = 'grade-report-overview-303687_r'
 
     def start(self, upload=False):
         """Init the webdriver in visible or headless mode."""
@@ -30,8 +31,7 @@ class Grade_Scraper():
             ffo = Options()
             ffo.headless = self.state
             gecko = "dependencies/geckodriver.exe"
-            self.web_driver = webdriver.Firefox(gecko, options=ffo)
-            self.cell_name = 'grade-report-overview-303687_r'
+            self.web_driver = webdriver.Firefox(gecko, options=ffo)  
             return self.web_driver
         else:
             # Use a remote server if testing on Travis
