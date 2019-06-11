@@ -17,7 +17,7 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.uix.image import Image
 from kivy.uix.label import Label
 
-from scraper import Grade_scraper
+from scraper import Gradescraper
 
 Config.set('graphics', 'resizable', False)
 Config.set('graphics', 'width', '200')
@@ -27,7 +27,7 @@ Config.set('graphics', 'height', '200')
 class Screen(GridLayout):
     """Main class that manages Kivy UI and scraping thread."""
 
-    def __init__(self, gr_scraper=Grade_scraper(), test_mode=False, **kwargs):
+    def __init__(self, gr_scraper=Gradescraper(), test_mode=False, **kwargs):
         """Init the code scraping thread and make all UI wigets."""
         super(Screen, self).__init__(**kwargs)
 
@@ -83,8 +83,8 @@ class Screen(GridLayout):
     def worker(self):
         """Worker thread used to run update every 10 minutes."""
         self.grade_scraper.start()
-        username = self.pull_data()["moodle_username"]
-        password = self.pull_data()["moodle_password"]
+        username = pull_data()["moodle_username"]
+        password = pull_data()["moodle_password"]
         logged_in = self.grade_scraper.login(username, password)
 
         if logged_in:
@@ -123,7 +123,7 @@ def pull_data(file_=None):
             config_line = {data[0]: data[1]}
             values.update(config_line)
 
-    return values    
+    return values
 
 
 class KivyApp(App):
@@ -131,7 +131,8 @@ class KivyApp(App):
 
     def __init__(self):
         """Init classes and variables."""
-        self.grade_scraper = Grade_scraper()
+        super(KivyApp,self).__init__()
+        self.grade_scraper = Gradescraper()
         self.screen = Screen(gr_scraper=self.grade_scraper)
 
     def build(self):
