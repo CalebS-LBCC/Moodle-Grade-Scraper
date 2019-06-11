@@ -16,6 +16,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.common.exceptions import InvalidArgumentException
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import WebDriverException
 
 
 class Gradescraper():
@@ -30,8 +31,6 @@ class Gradescraper():
         self.login_link = "https://identity.linnbenton.edu"
         self.login_confirm = "https://elearning.linnbenton.edu/login/index.php"
         self.redirect = "https://elearning.linnbenton.edu/my/"
-        self.grade_report = "https://elearning.linnbenton.edu\
-/grade/report/overview/index.php?id=2721"
 
     def start(self):
         """Init the webdriver in visible or headless mode."""
@@ -98,8 +97,10 @@ class Gradescraper():
                 self.web_driver.get(test_url)
                 self.write_log(f"Navigating to {test_url}")
             else:
-                self.web_driver.get(self.grade_report)
-                self.write_log(f"Navigating to {self.grade_report}")
+                grade_report = "https://elearning.linnbenton.edu\
+/grade/report/overview/index.php?id=2721"
+                self.web_driver.get(grade_report)
+                self.write_log(f"Navigating to {grade_report}")
 
             time.sleep(5)
             cell_test_text = f"{self.cell_name}{0}_c0"
@@ -109,6 +110,10 @@ class Gradescraper():
             return "E"
 
         except InvalidArgumentException:
+            self.write_log("Unable to scrape: Bad Link.")
+            return "E"
+
+        except WebDriverException:
             self.write_log("Unable to scrape: Bad Link.")
             return "E"
 
