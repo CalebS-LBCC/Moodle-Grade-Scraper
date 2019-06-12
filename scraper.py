@@ -80,7 +80,7 @@ class Gradescraper():
         password_field.send_keys(password)
         self.web_driver.find_element_by_name("loginform:loginBtn").click()
         self.web_driver.get(self.login_confirm)
-        
+
         timeout = Timeout(10)
         while self.web_driver.current_url != self.redirect:
             if timeout.exceeded():
