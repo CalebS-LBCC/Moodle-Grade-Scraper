@@ -79,9 +79,8 @@ class Gradescraper():
         username_field.send_keys(username)
         password_field.send_keys(password)
         self.web_driver.find_element_by_name("loginform:loginBtn").click()
-
         self.web_driver.get(self.login_confirm)
-
+        
         timeout = Timeout(10)
         while self.web_driver.current_url != self.redirect:
             if timeout.exceeded():
@@ -104,7 +103,7 @@ class Gradescraper():
 
             time.sleep(5)
             cell_test_text = f"{self.cell_name}{0}_c0"
-            self.web_driver.find_element_by_id(cell_test_text).text
+            out = self.web_driver.find_element_by_id(cell_test_text).text
         except NoSuchElementException:
             self.write_log("Unable to scrape.")
             return "E"
@@ -117,7 +116,7 @@ class Gradescraper():
             self.write_log("Unable to scrape: Bad Link.")
             return "E"
 
-        self.write_log("Scraping begun.")
+        self.write_log(f"Scraping begun. Class ID = {out}")
         return self.scrape_grades()
 
     def scrape_grades(self, cycle=0):

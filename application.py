@@ -80,7 +80,6 @@ class Screen(GridLayout):
         except FileNotFoundError:
             print("Background link incorrect. Not using a background.")
 
-
     def worker(self):
         """Worker thread used to run update every 10 minutes."""
         self.grade_scraper.start()
@@ -94,7 +93,7 @@ class Screen(GridLayout):
                 self.update()
                 time.sleep(600)
         if not logged_in:
-            print("Error: Unable to log into Moodle. Please check credentials.")
+            print("Error: Unable to log into Moodle. Check credentials.")
             self.grade_scraper.write_log("Moodle login unsuccessful.")
 
     def update(self):
